@@ -193,7 +193,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         tempOpenFilePath += foundKnownFile.ext;
 
         if (fileHasInfos) {
-            system(("powershell.exe \"./ps/removeinfo.ps1 -File '" + openFilePath + "' -toLineContent '" + overview_stop + "'\"").c_str());
+            system(("powershell -ExecutionPolicy Bypass -F \""+dirname+"\\ps\\removeinfo.ps1\" -File \"" + openFilePath + "\" -toLineContent \"" + overview_stop + "\"").c_str());
         }
 
     } else {
@@ -245,16 +245,15 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
     if (foundKnownFile.ext != "") {
 
-        system(("powershell.exe \"" + foundKnownFile.getinfo + " -sourceFile '" + tempOpenFilePath + "' -saveFile 'overview.txt'\"").c_str());
+        system(("powershell -ExecutionPolicy Bypass -F \""+dirname+"\\ps\\"+foundKnownFile.getinfo+"\" -sourceFile \"" + tempOpenFilePath + "\" -saveFile \""+dirname+"\\overview.txt\"").c_str());
         
         std::ofstream outfile;
-        // unlink("overview.txt");
 
-        outfile.open("overview.txt", std::ios_base::app);
+        outfile.open(dirname + "\\overview.txt", std::ios_base::app);
         outfile << overview_stop << "\n";
         outfile.close();
 
-        system(("powershell.exe \"./ps/addinfo.ps1 -File '" + tempOpenFilePath + "' -FileAdd 'overview.txt'\"").c_str());
+        system(("powershell -ExecutionPolicy Bypass -F \""+dirname+"\\ps\\addinfo.ps1\" -File \"" + tempOpenFilePath + "\" -FileAdd \""+dirname+"\\overview.txt\"").c_str());
 
         unlink((dirname + "\\overview.txt").c_str());
     
