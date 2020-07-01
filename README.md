@@ -8,42 +8,10 @@ Ein Workaround für TAIFUN openDocument mit dem nicht unterstützte Dateien (zB.
 * Leicht erweiterbar durch Auslagerung von Code in PowerShell-Skripte
 * Zusammenfassung des Dateiinhaltes  
 
-**Hier im Beispiel eine Simulation mit PV*SOL Premium (.pvprj)**
-```json
-// PV*SOL Informationen
-{
-  "PVLeistung": "7.2 kWp",
-  "Investitionskosten": "1500.0 Euro",
-  "Amortisationszeit": "0.0 Jahre",
-  "Wechselrichter": [
-    {
-      "Hersteller": "SMA Solar Technology AG",
-      "Modell": "STP10.0-3AV-40",
-      "Anzahl": "1"
-    }
-  ],
-  "Module": [
-    {
-      "Dach": "Gebaeude 01-Dachflaeche Sued",
-      "Hersteller": "Heckert-Solar",
-      "Name": "NeMo 2.0 60 M 325",
-      "Anzahl": "30"
-    }
-  ],
-  "Batteriesystem": {
-    "Firma": "SOLARWATT",
-    "Modell": "MyReserve Matrix 2 x MyReserve Pack 24.3  (4.8 kWh)"
-  },
-  "ElektroAuto": [
-    {
-      "Hersteller": "Example",
-      "Modell": "22 kWh",
-      "Anzahl": "1",
-      "Reichweite": "350 km"
-    }
-  ]
-}
-```
+
+![Screenshot](screenshot.png)
+*Hier im Beispiel eine Simulation mit PV\*SOL Premium (.pvprj)*
+
 
 ## Installieren und Einrichten
 1. `taifun_open_files.exe` und `options.ini` von der [Release](https://github.com/otsmr/taifun-workaround/releases) Seite herunterladen
