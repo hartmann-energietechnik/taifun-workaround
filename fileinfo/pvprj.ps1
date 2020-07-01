@@ -158,7 +158,7 @@ function Format-Json {
     return $result -Join [Environment]::NewLine
 }
 
-Set-Content -Path $saveFile -Value ($results | convertto-json | Format-Json)
+Set-Content -Path $saveFile -Value ("PV*SOL Informationen`n" + ($results | convertto-json | Format-Json))
 
 # Aufräumen
 

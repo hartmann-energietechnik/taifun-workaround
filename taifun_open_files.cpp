@@ -27,42 +27,62 @@ using namespace std;
 
 bool isDev = false;
 bool openAsTemp = false;
+bool fileHasInfos = false; 
 std::string openFileExt = "";
 
 std::string fallback = "C:\\Windows\\system32\\notepad.exe";
 std::string baseFolder = "TaifunFiles";
 std::string allowedfiles = "";
+std::string overview_stop = "";
+
+class AddFile {
+    public:
+        string ext;
+        string firstChars;
+        string inLineOne;
+        string infotitle;
+        string getinfo;
+};
+vector<AddFile> kownfiles;
+
+AddFile foundKnownFile;
 
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
 
-    int argc = 0;
-    char** argv;
-    helpers::fetchCmdArgs(&argc, &argv);
+    LPWSTR *szArglist;
+    int nArgs;
 
-    if (argc != 2) return 0;
-
-    std::string dirname = helpers::replaceAll(argv[0], "\"", "");
-    dirname = fs::path(dirname).parent_path().u8string();
-
-    std::string openFilePath = helpers::replaceAll(argv[1], "\"", "");
-
-
-    // ----------------------
-    // Überprüfen ob die Datei von TAIFUN gestartet wurde
-
-    std::string parentProcessPath = helpers::get_filepath_by_pid(helpers::get_parent_pid());    
-
-    std::cout << parentProcessPath << "\\n";
-
-    if (parentProcessPath.find("TFW.exe") == string::npos) {
-        ShellExecuteA(NULL, "open", fallback.c_str(), argv[1], NULL, SW_SHOW);
+    szArglist = CommandLineToArgvW(GetCommandLineW(), &nArgs);
+    if( NULL == szArglist )
+    {
         return 0;
     }
+    if (nArgs != 2) return 0;
 
-    cout << openFilePath << " wird geoeffnet...\n";
 
+    AllocConsole();
+    freopen("CONOUT$", "w", stdout);
+
+    char DefChar = ' ';
+
+    char ch_dirname[MAX_PATH];
+    WideCharToMultiByte(CP_ACP, 0, szArglist[0], -1, ch_dirname, MAX_PATH, &DefChar, NULL);
+
+    std::string dirname(ch_dirname);
+
+    cout << dirname << "\n";
+
+    dirname = fs::path(dirname).parent_path().u8string();
+
+
+    char ch_openFilePath[MAX_PATH];
+    WideCharToMultiByte(CP_ACP, 0, szArglist[1], -1, ch_openFilePath, MAX_PATH, &DefChar, NULL);
+
+    std::string openFilePath(ch_openFilePath);
+
+    
 
     // ----------------------
     // Laden der Konfiguration
@@ -75,25 +95,65 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         std::ifstream file(optionPath);
         if (file.is_open()) {
             std::string line;
+
+            int addfileid = 0;
+
+            AddFile addfile;  
+
             while (std::getline(file, line)) {
                 if (line.rfind("fallback=", 0) == 0) fallback = line.substr(9);
                 if (line.rfind("allowedfiles=", 0) == 0) allowedfiles = line.substr(13);
                 if (line.rfind("isDev=", 0) == 0) isDev = line.substr(6) == "true";
+                if (line.rfind("overview_stop=", 0) == 0) overview_stop = line.substr(14);
+
+                if (line.rfind("addfile_", 0) == 0) {
+                    line = line.substr(8);
+
+                    if (line.rfind("ext=", 0) == 0) {
+                        if (addfileid > 0) {
+                            kownfiles.push_back(addfile);
+                        }
+                        addfileid++;
+                        addfile.ext = line.substr(4);
+                    }
+                    if (line.rfind("firstChars=", 0) == 0) 
+                        addfile.firstChars = line.substr(11);
+                    if (line.rfind("inLineOne=", 0) == 0) 
+                        addfile.inLineOne = line.substr(10);
+                    if (line.rfind("getinfo=", 0) == 0) 
+                        addfile.getinfo = line.substr(8);
+                    if (line.rfind("infotitle=", 0) == 0) 
+                        addfile.infotitle = line.substr(10);
+
+                }
+
             }
+
+            kownfiles.push_back(addfile);
+
             file.close();
         }
 
     }
 
+    // ----------------------
+    // Überprüfen ob die Datei von TAIFUN gestartet wurde
+
+    std::string parentProcessPath = helpers::get_filepath_by_pid(helpers::get_parent_pid());    
+
+    std::cout << parentProcessPath << "\\n";
+
+    if (!isDev && parentProcessPath.find("TFW.exe") == string::npos) {
+        ShellExecuteA(NULL, "open", fallback.c_str(), openFilePath.c_str(), NULL, SW_SHOW);
+        return 0;
+    }
+
+    cout << openFilePath << " wird geoeffnet...\n";
+
     if (isDev) {
         AllocConsole();
         freopen("CONOUT$", "w", stdout);
     }
-
-    cout << "allowedfiles=" << allowedfiles << "\n";
-
-    vector<string> allowedfiles_array = helpers::split(allowedfiles, ",");
-
 
     // ----------------------
     // Datei-Kopie im Temp-Ordner erstellen
@@ -103,9 +163,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     std::string fileName = fs::path(openFilePath).filename().u8string();
     std::string tempOpenFilePath = baseFolder + "\\" + fileName;
 
-    for (auto &allowedfile : allowedfiles_array)
+    for (auto &kownfile : kownfiles)
     {
-        vector<string> file_data = helpers::split(allowedfile, ":");
 
         ifstream infile(openFilePath);
 
@@ -114,10 +173,14 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
             string sLine;
             getline(infile, sLine);
 
-            if (sLine.rfind(file_data[0], 0) == 0) {
-                tempOpenFilePath += file_data[1];
-                openAsTemp = true;
-                cout << "Erkannt als " << file_data[1] << "\n";
+            if ( sLine.rfind(kownfile.firstChars, 0) == 0 ) {
+                size_t found = sLine.find(kownfile.inLineOne); 
+                if (found != string::npos)
+                    foundKnownFile = kownfile;
+            }
+            if (sLine.rfind(kownfile.infotitle, 0) == 0) {
+                foundKnownFile = kownfile;
+                fileHasInfos = true;
             }
 
         }
@@ -126,7 +189,14 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
     }
 
-    if (!openAsTemp) {
+    if (foundKnownFile.ext != "") {
+        tempOpenFilePath += foundKnownFile.ext;
+
+        if (fileHasInfos) {
+            system(("powershell.exe \"./ps/removeinfo.ps1 -File '" + openFilePath + "' -toLineContent '" + overview_stop + "'\"").c_str());
+        }
+
+    } else {
         cout << "Datei nicht erkannt\n";
     }
 
@@ -154,7 +224,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     ShExecInfo.hwnd = NULL;
     ShExecInfo.lpVerb = NULL;
 
-    if (openAsTemp) {
+    if (foundKnownFile.ext != "") {
         ShExecInfo.lpFile = tempOpenFilePath.c_str();    
         ShExecInfo.lpParameters = "";
     } else {
@@ -169,6 +239,26 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     WaitForSingleObject(ShExecInfo.hProcess, INFINITE);
     CloseHandle(ShExecInfo.hProcess);
 
+
+    // ----------------------
+    // Übersicht in die Datei einfügen
+
+    if (foundKnownFile.ext != "") {
+
+        system(("powershell.exe \"" + foundKnownFile.getinfo + " -sourceFile '" + tempOpenFilePath + "' -saveFile 'overview.txt'\"").c_str());
+        
+        std::ofstream outfile;
+        // unlink("overview.txt");
+
+        outfile.open("overview.txt", std::ios_base::app);
+        outfile << overview_stop << "\n";
+        outfile.close();
+
+        system(("powershell.exe \"./ps/addinfo.ps1 -File '" + tempOpenFilePath + "' -FileAdd 'overview.txt'\"").c_str());
+
+        unlink((dirname + "\\overview.txt").c_str());
+    
+    }
 
     // ----------------------
     // Änderungen zurückkopieren
