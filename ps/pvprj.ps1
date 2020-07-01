@@ -24,6 +24,7 @@
 #   <SystemName> {}
 #       <Value></Value>
 
+#  Wechselrichter
 
 # E-Autos: Project.xml
 # <ElektroAuto> {}
@@ -43,6 +44,7 @@ $results = [pscustomobject] @{
     PVLeistung = ''
     Investitionskosten = ''
     Amortisationszeit = ''
+    Wechselrichter = @()
     Module = @()
     Batteriesystem = [pscustomobject] @{
         Firma = ""
@@ -69,6 +71,7 @@ Remove-Item $sourceFile
 
 $ProjectXML = "$tempFolder\Project.xml";
 $OecForeCastJSON = "$tempFolder\OecForeCast.json";
+$DBJSON = "$tempFolder\DB.json";
 
 if ((Test-Path -Path $ProjectXML) -ne $true ) {
     exit;
@@ -77,46 +80,74 @@ if ((Test-Path -Path $OecForeCastJSON) -ne $true ) {
     exit;
 }
 
+$DBJSONData = Get-Content $DBJSON | Out-String | ConvertFrom-Json
 $OecForeCastJSONData = Get-Content $OecForeCastJSON | Out-String | ConvertFrom-Json
 
 $results.PVLeistung = ([String] $OecForeCastJSONData.PVLeistung) + " kWp";
-$results.Investitionskosten = ([String] $OecForeCastJSONData.Investitionen.Data.Summe) + " €";
+$results.Investitionskosten = ([String] $OecForeCastJSONData.Investitionen.Data.Summe) + " Euro";
 $results.Amortisationszeit = ([String] [Math]::Round($OecForeCastJSONData.ResultsModel.Data.Amortisationszeit, 2)) + " Jahre";
 
 
 $ProjectXMLData = [xml] (Get-Content $ProjectXML)
 
-$results.Batteriesystem.Firma = [String] $ProjectXMLData.PVData.Batteriesystem.Company.Value;
-$results.Batteriesystem.Modell = [String] $ProjectXMLData.PVData.Batteriesystem.SystemName.Value;
+if ($DBJSONData.Batteries.Length -eq 0) {
+    $results.Batteriesystem.Firma = "Keine Batterie";
+    $results.Batteriesystem.Modell = "-";
+} else {
+    $results.Batteriesystem.Firma = [String] $ProjectXMLData.PVData.Batteriesystem.Company.Value;
+    $results.Batteriesystem.Modell = [String] $ProjectXMLData.PVData.Batteriesystem.SystemName.Value;
+
+}
 
 
 try {
+
     $ParametersNode = $ProjectXMLData.PVData.PVModule.SelectNodes('Modulfelder')
 
     foreach($Node in $ParametersNode){
         $results.Module += [pscustomobject] @{
-            Dach = [String] $Node.Modulname
+            Dach = [String] $Node.Modulname[0]
             Hersteller = [String] $Node.ModulHersteller
-            Name = [String] $Node.ModulName
+            Name = [String] $Node.Modulname[1]
             Anzahl = [String]  $Node.Modulanzahl.Value
         }
     }
+    
 }
 catch {}
 
 try {
-    $ParametersNode = $ProjectXMLData.PVData.ElektroAuto.SelectNodes('Car')
+
+    $ParametersNode = $ProjectXMLData.PVData.Wechselrichter.Verschaltung.SelectNodes('WRObj')
 
     foreach($Node in $ParametersNode){
-        $results.ElektroAuto += [pscustomobject] @{
-            Hersteller = [String] $Node.ECarAndStationDBHersteller
-            Modell = [String] $Node.ECarAndStationDBName
-            Anzahl = [String] $Node.AnzahlAutos.Value
-            Reichweite = [String] $Node.GewuenschteReichweite.Value + " km"
+        $results.Wechselrichter += [pscustomobject] @{
+            Hersteller = [String] $Node.InverterHersteller
+            Modell = [String] $Node.InverterName
+            Anzahl = [String] $Node.Haeufigkeit
         }
     }
+
 }
 catch {}
+
+
+if ($DBJSONData.Batteries.Length -eq 0) {
+} else {
+    try {
+        $ParametersNode = $ProjectXMLData.PVData.ElektroAuto.SelectNodes('Car')
+
+        foreach($Node in $ParametersNode){
+            $results.ElektroAuto += [pscustomobject] @{
+                Hersteller = [String] $Node.ECarAndStationDBHersteller
+                Modell = [String] $Node.ECarAndStationDBName
+                Anzahl = [String] $Node.AnzahlAutos.Value
+                Reichweite = [String] $Node.GewuenschteReichweite.Value + " km"
+            }
+        }
+    }
+    catch {}
+}
 
 function Format-Json {
 
@@ -165,7 +196,18 @@ function Format-Json {
     return $result -Join [Environment]::NewLine
 }
 
-Set-Content -Path $saveFile -Value ("PV*SOL Informationen`n" + ($results | convertto-json | Format-Json))
+
+
+$Text = [String] ("PV*SOL Informationen`n" + ($results | convertto-json | Format-Json))
+
+$output = $Text.Replace('ö','oe').Replace('ä','ae').Replace('ü','ue').Replace('ß','ss').Replace('Ö','Oe').Replace('Ü','Ue').Replace('Ä','Ae')
+$isCapitalLetter = $Text -ceq $Text.toUpper()
+if ($isCapitalLetter) { 
+    $output = $output.toUpper() 
+}
+
+
+Set-Content -Path $saveFile -Value $output
 
 # Aufräumen
 

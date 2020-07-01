@@ -37,40 +37,6 @@ namespace helpers
         return tokens;
     }
 
-
-
-
-    void fetchCmdArgs(int *argc, char ***argv)
-    {
-        *argc = 0;
-
-        char *winCmd = GetCommandLineA();
-        int index = 0;
-        bool newOption = true;
-        static vector<char *> argVector;
-
-        while (winCmd[index] != 0)
-        {
-            if (winCmd[index] == ' ')
-            {
-                winCmd[index] = 0;
-                newOption = true;
-            }
-            else
-            {
-                if (newOption)
-                {
-                    argVector.push_back(&winCmd[index]);
-                    (*argc)++;
-                }
-                newOption = false;
-            }
-            index++;
-        }
-        *argv = &argVector[0];
-    }
-
-
     DWORD get_parent_pid()
     {
         HANDLE hSnapshot;
