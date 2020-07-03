@@ -75,7 +75,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
     std::string openFilePath(ch_openFilePath);
 
+    // ----------------------
+    // Ausgabe
 
+    AllocConsole();
+    freopen("CONOUT$", "w", stdout);
+    ShowWindow(GetConsoleWindow(), SW_HIDE);
+    
     // ----------------------
     // Laden der Konfiguration
 
@@ -101,10 +107,27 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
                     if (line.rfind("ext=", 0) == 0) {
                         if (addfileid > 0) {
+                            AddFile tmp; 
+
+                            // TODO: besser umsetzen
+                            tmp.ext = addfile.ext;
+                            tmp.firstChars = addfile.firstChars;
+                            tmp.inLineOne = addfile.inLineOne;
+                            tmp.infotitle = addfile.infotitle;
+                            tmp.getinfo = addfile.getinfo;
+
                             kownfiles.push_back(addfile);
                         }
                         addfileid++;
+
+                        AddFile tmp2; 
+                        addfile = tmp2;
+
                         addfile.ext = line.substr(4);
+
+                        cout << "Optionen fuer " << addfile.ext << " werden geladen\n";
+                        cout << addfileid << "\n";
+
                     }
                     if (line.rfind("firstChars=", 0) == 0) 
                         addfile.firstChars = line.substr(11);
@@ -126,26 +149,24 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
     }
 
+    if (isDev) {
+        ShowWindow(GetConsoleWindow(), SW_SHOW);
+    }
+
+
     // ----------------------
     // Überprüfen ob die Datei von TAIFUN gestartet wurde
 
     std::string parentProcessPath = helpers::get_filepath_by_pid(helpers::get_parent_pid());    
 
     if (!isDev && parentProcessPath.find("TFW.exe") == string::npos) {
+        cout << "Die Datei wurde nicht durch TAIFUN geoeffnet\n";
         ShellExecuteA(NULL, "open", fallback.c_str(), openFilePath.c_str(), NULL, SW_SHOW);
+        if (isDev) system("pause");
         return 0;
     }
 
-    // ----------------------
-    // Ausgabe
-
-    AllocConsole();
-
-    if (isDev) {
-        freopen("CONOUT$", "w", stdout);
-    } else {
-        ShowWindow(GetConsoleWindow(), SW_HIDE);
-    }
+    
 
     cout << openFilePath << " wird geoeffnet...\n";
 
@@ -159,8 +180,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     std::string fileName = fs::path(openFilePath).filename().u8string();
     std::string tempOpenFilePath = baseFolder + "\\" + fileName;
 
-    for (auto &kownfile : kownfiles)
+    for (AddFile &kownfile : kownfiles)
     {
+
+        cout << "Datei wird auf " << kownfile.ext << " untersucht\n";
+        cout << "kownfile.getinfo: " << kownfile.getinfo << "\n";
 
         ifstream infile(openFilePath);
 
@@ -171,13 +195,16 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
             if ( sLine.rfind(kownfile.firstChars, 0) == 0 ) {
                 size_t found = sLine.find(kownfile.inLineOne); 
-                if (found != string::npos)
+                if (found != string::npos) {
                     foundKnownFile = kownfile;
+                    break;
+                }
             }
 
-            if (sLine.rfind(kownfile.infotitle, 0) == 0) {
+            if (kownfile.infotitle != "" && sLine.rfind(kownfile.infotitle, 0) == 0) {
                 foundKnownFile = kownfile;
                 fileHasInfos = true;
+                break;
             }
 
         }
@@ -187,6 +214,10 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     }
 
     if (foundKnownFile.ext != "") {
+
+        cout << "Es wurde der Dateityp "<< foundKnownFile.ext << " erkannt\n";
+        cout << "Infos: "<< fileHasInfos << "\n";
+
         tempOpenFilePath += foundKnownFile.ext;
 
         if (fileHasInfos) {
@@ -194,7 +225,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         }
 
     } else {
-        cout << "Datei nicht erkannt\n";
+        cout << "Dateityp nicht erkannt\n";
     }
 
 
@@ -207,6 +238,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         }
 
         fs::copy_file(openFilePath, tempOpenFilePath);
+
+        cout << "Es wurde eine Kopie angelegt in " << tempOpenFilePath << "\n";
 
     } catch(fs::filesystem_error& e) {
         std::cout << e.what() << '\n';
@@ -226,12 +259,16 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         ShExecInfo.lpFile = tempOpenFilePath.c_str();    
         ShExecInfo.lpParameters = "";
     } else {
+        cout << "Zum oeffnen der Datei wird der Fallback \"" << fallback << "\" verwenden.\n";
         ShExecInfo.lpFile = fallback.c_str();    
         ShExecInfo.lpParameters = tempOpenFilePath.c_str();
     }
 
     ShExecInfo.lpDirectory = NULL;
     ShExecInfo.nShow = SW_SHOW;
+
+    cout << "Kopie wird geoeffnet\n";
+
     ShExecInfo.hInstApp = NULL; 
     ShellExecuteExA(&ShExecInfo);
     WaitForSingleObject(ShExecInfo.hProcess, INFINITE);
@@ -241,7 +278,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     // ----------------------
     // Übersicht in die Datei einfügen
 
-    if (foundKnownFile.ext != "") {
+    if (foundKnownFile.ext != "" && foundKnownFile.getinfo != "") {
+
+        cout << "Es wird eine Zusammenfassung der Datei mit " << foundKnownFile.getinfo << " erstellt. \n";
 
         system(("powershell -ExecutionPolicy Bypass -F \""+dirname+"\\ps\\"+foundKnownFile.getinfo+"\" -sourceFile \"" + tempOpenFilePath + "\" -saveFile \""+dirname+"\\overview.txt\"").c_str());
         
@@ -262,6 +301,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
     try {
 
+        cout << "Aenderungen werden zurueckkopiert\n";
+
         if (fs::exists(openFilePath)) {
             unlink(openFilePath.c_str());
         }
@@ -269,6 +310,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
         fs::copy_file(tempOpenFilePath, openFilePath);
 
         unlink(tempOpenFilePath.c_str());
+
 
     } catch(fs::filesystem_error& e) {
         std::cout << e.what() << '\n';

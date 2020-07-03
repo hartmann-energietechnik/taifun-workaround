@@ -81,11 +81,7 @@ namespace helpers
         {
             if (GetModuleFileNameExA(processHandle, NULL, filename, MAX_PATH) == 0)
             {
-                std::cout << "FEHLER";
-            }
-            else
-            {
-                std::cout << "Module filename is: " << filename << endl;
+                std::cout << "FEHLER1";
             }
             CloseHandle(processHandle);
         }

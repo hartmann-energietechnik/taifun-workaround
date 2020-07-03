@@ -1,4 +1,9 @@
-*.obj
-*.exe
+/.vscode
+
 tools/*.ini
-.vscode
+
+# Testdateien mit personenbezogenen Daten
+test/_*.*
+
+/*.obj
+/*.exe
