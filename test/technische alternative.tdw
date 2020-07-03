@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<tapps classname="TaDocument" main="1593764400194832" show="1593764401509555" mayEdit="true">
+    <title>Neu</title>
+    <desc></desc>
+    <version>1.0.12</version>
+    <purpose>uvr</purpose>
+    <o classname="TaDrawing" rootobject="1593764400194816" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="non" units_measure="non" mayEdit="true" drawingId="a2dDrawingId_cameleonrefs">
+        <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+        <title>top</title>
+        <desc></desc>
+        <drawing>
+            <o classname="a2dCanvasObject" id="1593764400194816">
+                <o classname="a2dCameleon" id="1593764400194832" name="outsideUVR"
+                     transform="translate( 50 1049 )"
+                     appearances="1593764400194833" isMultiRef="true" isTemplate="false" drawingId="a2dDrawingId_noId">
+                    <appearances>
+                        <o classname="TaDrawing" id="1593764400194833" rootobject="1593764400194842" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="non" units_measure="non" mayEdit="true" drawingId="a2dDrawingId_appearances">
+                            <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                            <title>outsideUVR</title>
+                            <desc></desc>
+                            <drawing>
+                                <o classname="a2dCanvasObject" id="1593764400194842">
+                                    <o classname="a2dDiagram"
+                                         transform="translate( 0 50 )"
+                                         drawing="1593764400194849">
+                                        
+                                        <properties>
+                                            <o classname="a2dStringProperty" name="Name" value="The outside world">
+                                            </o>
+                                        </properties>
+                                        
+                                        <drawing>
+                                            <o classname="TaDrawing" id="1593764400194849" rootobject="1593764400194858" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="non" units_measure="non" mayEdit="true" drawingId="a2dDrawingId_physical">
+                                                <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                                                <title>outsideUVR</title>
+                                                <desc></desc>
+                                                <drawing>
+                                                    <o classname="a2dCanvasObject" id="1593764400194858">
+                                                        <o classname="UVR16x2" flags=" visible(0) fixedStyle" drawing="1593764401509546">
+                                                            <uvr block="GeraeteEinst">
+                                                                <wert name="Kontr" val="500"/>
+                                                                <wert name="Hell" val="1000"/>
+                                                                <wert name="DisTO" val="30"/>
+                                                                <wert name="Waehr" val="1"/>
+                                                                <wert name="Stromw" val="0"/>
+                                                                <wert name="PhNb" val="0"/>
+                                                                <wert name="FachCode" text="64"/>
+                                                                <wert name="ExpCode" text="128"/>
+                                                                <wert name="Menu" val="0"/>
+                                                                <wert name="AutoZU" val="1"/>
+                                                                <wert name="Zeitz" val="60"/>
+                                                                <wert name="GPSB" val="48836500"/>
+                                                                <wert name="GPSL" val="15080000"/>
+                                                                <wert name="SpracheBDB" text="none"/>
+                                                            </uvr>
+                                                            <uvr block="BDBListe">
+                                                            </uvr>
+                                                            <uvr block="CAN">
+                                                                <wert name="Knot" val="1"/>
+                                                                <wert name="Busr" val="3"/>
+                                                                <wert name="Bez" text="UVR16x2"/>
+                                                            </uvr>
+                                                            <uvr block="DL">
+                                                                <wert name="DAusg" val="1"/>
+                                                            </uvr>
+                                                            <uvr block="DatLog">
+                                                                <wert name="Interv" val="30"/>
+                                                                <wert name="SDLog" val="0"/>
+                                                                <ev name="A1" qu="1" fid="0" wert="0" eanr="1" avi="0" spin="true"/>
+                                                                <ev name="A2" qu="1" fid="0" wert="0" eanr="2" avi="0" spin="true"/>
+                                                                <ev name="A3" qu="1" fid="0" wert="0" eanr="3" avi="0" spin="true"/>
+                                                                <ev name="A4" qu="1" fid="0" wert="0" eanr="4" avi="0" spin="true"/>
+                                                                <ev name="A5" qu="1" fid="0" wert="0" eanr="5" avi="0" spin="true"/>
+                                                                <ev name="A6" qu="1" fid="0" wert="0" eanr="6" avi="0" spin="true"/>
+                                                                <ev name="A7" qu="1" fid="0" wert="0" eanr="7" avi="0" spin="true"/>
+                                                                <ev name="A8" qu="1" fid="0" wert="0" eanr="8" avi="0" spin="true"/>
+                                                                <ev name="A9" qu="1" fid="0" wert="0" eanr="9" avi="0" spin="true"/>
+                                                                <ev name="A10" qu="1" fid="0" wert="0" eanr="10" avi="0" spin="true"/>
+                                                                <ev name="A11" qu="1" fid="0" wert="0" eanr="11" avi="0" spin="true"/>
+                                                                <ev name="A12" qu="1" fid="0" wert="0" eanr="12" avi="0" spin="true"/>
+                                                                <ev name="A13" qu="1" fid="0" wert="0" eanr="13" avi="0" spin="true"/>
+                                                                <ev name="A14" qu="1" fid="0" wert="0" eanr="14" avi="0" spin="true"/>
+                                                                <ev name="A15" qu="1" fid="0" wert="0" eanr="15" avi="0" spin="true"/>
+                                                                <ev name="A16" qu="1" fid="0" wert="0" eanr="16" avi="0" spin="true"/>
+                                                                <ev name="A17" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A18" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A19" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A20" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A21" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A22" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A23" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A24" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A25" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A26" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A27" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A28" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A29" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A30" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A31" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A32" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A33" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A34" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A35" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A36" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A37" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A38" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A39" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A40" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A41" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A42" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A43" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A44" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A45" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A46" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A47" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A48" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A49" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A50" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A51" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A52" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A53" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A54" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A55" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A56" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A57" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A58" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A59" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A60" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A61" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A62" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A63" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="A64" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D1" qu="2" fid="0" wert="0" eanr="1" avi="0" spin="true"/>
+                                                                <ev name="D2" qu="2" fid="0" wert="0" eanr="2" avi="0" spin="true"/>
+                                                                <ev name="D3" qu="2" fid="0" wert="0" eanr="3" avi="0" spin="true"/>
+                                                                <ev name="D4" qu="2" fid="0" wert="0" eanr="4" avi="0" spin="true"/>
+                                                                <ev name="D5" qu="2" fid="0" wert="0" eanr="5" avi="0" spin="true"/>
+                                                                <ev name="D6" qu="2" fid="0" wert="0" eanr="6" avi="0" spin="true"/>
+                                                                <ev name="D7" qu="2" fid="0" wert="0" eanr="7" avi="0" spin="true"/>
+                                                                <ev name="D8" qu="2" fid="0" wert="0" eanr="8" avi="0" spin="true"/>
+                                                                <ev name="D9" qu="2" fid="0" wert="0" eanr="9" avi="0" spin="true"/>
+                                                                <ev name="D10" qu="2" fid="0" wert="0" eanr="10" avi="0" spin="true"/>
+                                                                <ev name="D11" qu="2" fid="0" wert="0" eanr="11" avi="0" spin="true"/>
+                                                                <ev name="D12" qu="2" fid="0" wert="0" eanr="12" avi="0" spin="true"/>
+                                                                <ev name="D13" qu="2" fid="0" wert="0" eanr="13" avi="0" spin="true"/>
+                                                                <ev name="D14" qu="2" fid="0" wert="0" eanr="14" avi="0" spin="true"/>
+                                                                <ev name="D15" qu="2" fid="0" wert="0" eanr="15" avi="0" spin="true"/>
+                                                                <ev name="D16" qu="2" fid="0" wert="0" eanr="16" avi="0" spin="true"/>
+                                                                <ev name="D17" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D18" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D19" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D20" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D21" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D22" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D23" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D24" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D25" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D26" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D27" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D28" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D29" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D30" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D31" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D32" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D33" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D34" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D35" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D36" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D37" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D38" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D39" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D40" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D41" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D42" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D43" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D44" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D45" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D46" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D47" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D48" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D49" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D50" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D51" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D52" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D53" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D54" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D55" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D56" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D57" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D58" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D59" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D60" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D61" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D62" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D63" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                                <ev name="D64" qu="0" fid="0" wert="0" eanr="0" avi="0" spin="true"/>
+                                                            </uvr>
+                                                            <uvr block="Eingaenge">
+                                                            </uvr>
+                                                            <uvr block="Ausgaenge">
+                                                                <bs wt="0" az="0">
+                                                                    <av name="Sch" bits="0"/>
+                                                                </bs>
+                                                            </uvr>
+                                                            <uvr block="Fixwerte">
+                                                            </uvr>
+                                                            
+                                                            <properties>
+                                                                <o classname="a2dStringProperty" name="Name" value="UVR16x2">
+                                                                </o>
+                                                            </properties>
+                                                            
+                                                            <o classname="FunkInPin" id="1593764401509560" name="S1">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509561" name="S2">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509562" name="S3">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509563" name="S4">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509564" name="S5">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509565" name="S6">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509566" name="S7">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509567" name="S8">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509568" name="S9">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509569" name="S10">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509570" name="S11">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509571" name="S12">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509572" name="S13">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509573" name="S14">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509574" name="S15">
+                                                            </o>
+                                                            <o classname="FunkInPin" id="1593764401509575" name="S16">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509576" name="O1">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509577" name="O2">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509578" name="O3">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509579" name="O4">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509580" name="O5">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509581" name="O6">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509582" name="O7">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509583" name="O8">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509584" name="O9">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509585" name="O10">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509586" name="O11">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509587" name="O12">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509588" name="O13">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509589" name="O14">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509590" name="O15">
+                                                            </o>
+                                                            <o classname="FunkOutPin" id="1593764401509591" name="O16">
+                                                            </o>
+                                                            <drawing>
+                                                                <o classname="TaDrawing" id="1593764401509546" rootobject="1593764401509555" initialSizeX="100" initialSizeY="100" units_accuracy="0.001" units_scale="0.01" normalize_scale="1" units="non" units_measure="non" mayEdit="true" drawingId="a2dDrawingId_Uvr16x2">
+                                                                    <pagesetup headerL="" headerM="$[Datei]" headerR="" footerL="" footerM="$[Seite] / $[Seiten]" footerR="" pageWidth="210" pageHeight="297" pagesx="4" pagesy="2" orientation="1" MarginTopLeftx="70" MarginTopLefty="100" MarginBottomRightx="70" MarginBottomRighty="100" headerPosition="50" footerPosition="50"/>
+                                                                    <title>UVR Diagram</title>
+                                                                    <desc></desc>
+                                                                    <drawing>
+                                                                        <o classname="a2dCanvasObject" id="1593764401509555">
+                                                                        </o>
+                                                                    </drawing>
+                                                                    
+                                                                    <properties>
+                                                                        <o classname="a2dStringProperty" name="Name" value="UVR Diagram">
+                                                                        </o>
+                                                                    </properties>
+                                                                    
+                                                                </o>
+                                                            </drawing>
+                                                        </o>
+                                                    </o>
+                                                </drawing>
+                                                
+                                                <properties>
+                                                    <o classname="a2dStringProperty" name="Name" value="outsideUVR">
+                                                    </o>
+                                                </properties>
+                                                
+                                            </o>
+                                        </drawing>
+                                    </o>
+                                </o>
+                            </drawing>
+                            
+                            <properties>
+                                <o classname="a2dStringProperty" name="Name" value="outsideUVR">
+                                </o>
+                            </properties>
+                            
+                        </o>
+                    </appearances>
+                </o>
+            </o>
+        </drawing>
+        
+        <properties>
+            <o classname="a2dStringProperty" name="Name" value="top">
+            </o>
+        </properties>
+        
+    </o>
+</tapps>

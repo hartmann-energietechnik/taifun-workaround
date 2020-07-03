@@ -1,0 +1,6824 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DeviceSettings Name="" DeviceType="4" HardwarePlatform="1" Version="4">
+  <Description>
+  </Description>
+  <Setting ID="2" Name="Hysterese" Type="1">
+    <Value>2</Value>
+    <Raw>AgoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="3" Name="SolarFunktion" Type="1">
+    <Value>1</Value>
+    <Raw>AQMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="4" Name="SpecialOpMode" Type="1">
+    <Value>0</Value>
+    <Raw>AAAAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="5" Name="SoFTempDiff" Type="1">
+    <Value>15</Value>
+    <Raw>Dx4FAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="6" Name="SoFTempDiffStart" Type="1">
+    <Value>5</Value>
+    <Raw>BRQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="7" Name="SoFWattLimit" Type="1">
+    <Value>50</Value>
+    <Raw>MngBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="8" Name="SoFWartezeit" Type="1">
+    <Value>3</Value>
+    <Raw>Ax4AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="9" Name="SoFKurzlauf" Type="1">
+    <Value>15</Value>
+    <Raw>DzsAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="10" Name="SoFEinzeit" Type="1">
+    <Value>10</Value>
+    <Raw>CngAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="11" Name="SoFAuszeit" Type="1">
+    <Value>3</Value>
+    <Raw>Ax4AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="12" Name="Spreizung" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="13" Name="SpreizungMaske" Type="1">
+    <Value>63</Value>
+    <Raw>Pz8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="14" Name="MischerFunktion" Type="1">
+    <Value>0</Value>
+    <Raw>AAAAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="15" Name="SHSolarCycle" Type="1">
+    <Value>1</Value>
+    <Raw>AQMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="16" Name="LeistungMessung" Type="1">
+    <Value>0</Value>
+    <Raw>AAYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="17" Name="LeistungFaktor" Type="1">
+    <Value>45</Value>
+    <Raw>LXjOAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="18" Name="LeistungImpulseP1" Type="1">
+    <Value>10</Value>
+    <Raw>Cn8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="19" Name="LeistungImpulseP2" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="20" Name="LeistungJoulePerLiter20" Type="1">
+    <Value>144</Value>
+    <Raw>kOYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="21" Name="LeistungJoulePerLiter80" Type="1">
+    <Value>170</Value>
+    <Raw>quYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="22" Name="Backlight" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="23" Name="Datalogger" Type="1">
+    <Value>0</Value>
+    <Raw>ADwAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="24" Name="ConfigDeviceType" Type="1">
+    <Value>4</Value>
+    <Raw>BHgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="25" Name="FPNet" Type="1">
+    <Value>0</Value>
+    <Raw>AAUAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="26" Name="Language" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="27" Name="TempFuehler1Text" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="28" Name="28" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="29" Name="29" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="30" Name="30" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="31" Name="31" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="32" Name="32" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="33" Name="33" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="34" Name="34" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="35" Name="35" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="36" Name="36" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="37" Name="37" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="38" Name="38" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="39" Name="39" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="40" Name="40" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="41" Name="41" Type="1">
+    <Value>90</Value>
+    <Raw>WloAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="42" Name="TempFuehler1Type" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="43" Name="43" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="44" Name="44" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="45" Name="45" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="46" Name="46" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="47" Name="47" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="48" Name="48" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="49" Name="49" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="50" Name="50" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="51" Name="51" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="52" Name="52" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="53" Name="53" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="54" Name="54" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="55" Name="55" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="56" Name="56" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="57" Name="TempFuehler1Calib" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="58" Name="58" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="59" Name="59" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="60" Name="60" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="61" Name="61" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="62" Name="62" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="63" Name="63" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="64" Name="64" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="65" Name="65" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="66" Name="66" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="67" Name="67" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="68" Name="68" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="69" Name="69" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="70" Name="70" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="71" Name="71" Type="1">
+    <Value>0</Value>
+    <Raw>ADzEAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="72" Name="KanalTyp" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="73" Name="73" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="74" Name="74" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="75" Name="75" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="76" Name="76" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="77" Name="77" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="78" Name="78" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="79" Name="79" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="80" Name="80" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="81" Name="81" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="82" Name="82" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="83" Name="83" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="84" Name="84" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="85" Name="85" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="86" Name="86" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="87" Name="87" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="88" Name="88" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="89" Name="89" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="90" Name="90" Type="1">
+    <Value>1</Value>
+    <Raw>AQQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="91" Name="91" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="92" Name="Fuehler1" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="93" Name="93" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="94" Name="94" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="95" Name="95" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="96" Name="96" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="97" Name="97" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="98" Name="98" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="99" Name="99" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="100" Name="100" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="101" Name="101" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="102" Name="102" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="103" Name="103" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="104" Name="104" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="105" Name="105" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="106" Name="106" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="107" Name="107" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="108" Name="108" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="109" Name="109" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="110" Name="110" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="111" Name="111" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="112" Name="Fuehler2" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="113" Name="113" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="114" Name="114" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="115" Name="115" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="116" Name="116" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="117" Name="117" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="118" Name="118" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="119" Name="119" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="120" Name="120" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="121" Name="121" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="122" Name="122" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="123" Name="123" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="124" Name="124" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="125" Name="125" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="126" Name="126" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="127" Name="127" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="128" Name="128" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="129" Name="129" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="130" Name="130" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="131" Name="131" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="132" Name="GleitfktMode" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="133" Name="133" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="134" Name="134" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="135" Name="135" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="136" Name="136" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="137" Name="137" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="138" Name="138" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="139" Name="139" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="140" Name="140" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="141" Name="141" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="142" Name="142" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="143" Name="143" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="144" Name="144" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="145" Name="145" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="146" Name="146" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="147" Name="147" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="148" Name="148" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="149" Name="149" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="150" Name="150" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="151" Name="151" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="152" Name="GleitfktTempEin" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="153" Name="153" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="154" Name="154" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="155" Name="155" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="156" Name="156" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="157" Name="157" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="158" Name="158" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="159" Name="159" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="160" Name="160" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="161" Name="161" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="162" Name="162" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="163" Name="163" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="164" Name="164" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="165" Name="165" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="166" Name="166" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="167" Name="167" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="168" Name="168" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="169" Name="169" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="170" Name="170" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="171" Name="171" Type="1">
+    <Value>0</Value>
+    <Raw>AMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="172" Name="GleitfktTempAus" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="173" Name="173" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="174" Name="174" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="175" Name="175" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="176" Name="176" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="177" Name="177" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="178" Name="178" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="179" Name="179" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="180" Name="180" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="181" Name="181" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="182" Name="182" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="183" Name="183" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="184" Name="184" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="185" Name="185" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="186" Name="186" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="187" Name="187" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="188" Name="188" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="189" Name="189" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="190" Name="190" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="191" Name="191" Type="1">
+    <Value>100</Value>
+    <Raw>ZMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="192" Name="GleitfktNullpunkt" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="193" Name="193" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="194" Name="194" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="195" Name="195" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="196" Name="196" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="197" Name="197" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="198" Name="198" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="199" Name="199" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="200" Name="200" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="201" Name="201" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="202" Name="202" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="203" Name="203" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="204" Name="204" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="205" Name="205" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="206" Name="206" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="207" Name="207" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="208" Name="208" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="209" Name="209" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="210" Name="210" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="211" Name="211" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="212" Name="GleitfktHeizkurve" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="213" Name="213" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="214" Name="214" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="215" Name="215" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="216" Name="216" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="217" Name="217" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="218" Name="218" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="219" Name="219" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="220" Name="220" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="221" Name="221" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="222" Name="222" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="223" Name="223" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="224" Name="224" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="225" Name="225" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="226" Name="226" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="227" Name="227" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="228" Name="228" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="229" Name="229" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="230" Name="230" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="231" Name="231" Type="1">
+    <Value>25</Value>
+    <Raw>GfoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="232" Name="GleitfktMaxAussenTemp" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="233" Name="233" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="234" Name="234" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="235" Name="235" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="236" Name="236" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="237" Name="237" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="238" Name="238" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="239" Name="239" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="240" Name="240" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="241" Name="241" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="242" Name="242" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="243" Name="243" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="244" Name="244" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="245" Name="245" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="246" Name="246" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="247" Name="247" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="248" Name="248" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="249" Name="249" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="250" Name="250" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="251" Name="251" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="252" Name="MinTemp" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="253" Name="253" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="254" Name="254" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="255" Name="255" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="256" Name="256" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="257" Name="257" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="258" Name="258" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="259" Name="259" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="260" Name="260" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="261" Name="261" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="262" Name="262" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="263" Name="263" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="264" Name="264" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="265" Name="265" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="266" Name="266" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="267" Name="267" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="268" Name="268" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="269" Name="269" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="270" Name="270" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="271" Name="271" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="272" Name="TempDiffEin" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="273" Name="273" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="274" Name="274" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="275" Name="275" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="276" Name="276" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="277" Name="277" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="278" Name="278" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="279" Name="279" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="280" Name="280" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="281" Name="281" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="282" Name="282" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="283" Name="283" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="284" Name="284" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="285" Name="285" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="286" Name="286" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="287" Name="287" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="288" Name="288" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="289" Name="289" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="290" Name="290" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="291" Name="291" Type="1">
+    <Value>5</Value>
+    <Raw>BTEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="292" Name="TempDiffAus" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="293" Name="293" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="294" Name="294" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="295" Name="295" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="296" Name="296" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="297" Name="297" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="298" Name="298" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="299" Name="299" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="300" Name="300" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="301" Name="301" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="302" Name="302" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="303" Name="303" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="304" Name="304" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="305" Name="305" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="306" Name="306" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="307" Name="307" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="308" Name="308" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="309" Name="309" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="310" Name="310" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="311" Name="311" Type="1">
+    <Value>3</Value>
+    <Raw>AzHsAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="312" Name="MaxTempEin" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="313" Name="313" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="314" Name="314" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="315" Name="315" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="316" Name="316" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="317" Name="317" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="318" Name="318" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="319" Name="319" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="320" Name="320" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="321" Name="321" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="322" Name="322" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="323" Name="323" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="324" Name="324" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="325" Name="325" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="326" Name="326" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="327" Name="327" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="328" Name="328" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="329" Name="329" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="330" Name="330" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="331" Name="331" Type="1">
+    <Value>99</Value>
+    <Raw>Y2MAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="332" Name="MaxTempAus" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="333" Name="333" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="334" Name="334" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="335" Name="335" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="336" Name="336" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="337" Name="337" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="338" Name="338" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="339" Name="339" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="340" Name="340" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="341" Name="341" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="342" Name="342" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="343" Name="343" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="344" Name="344" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="345" Name="345" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="346" Name="346" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="347" Name="347" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="348" Name="348" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="349" Name="349" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="350" Name="350" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="351" Name="351" Type="1">
+    <Value>65</Value>
+    <Raw>QWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="352" Name="UTEin" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="353" Name="353" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="354" Name="354" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="355" Name="355" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="356" Name="356" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="357" Name="357" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="358" Name="358" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="359" Name="359" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="360" Name="360" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="361" Name="361" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="362" Name="362" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="363" Name="363" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="364" Name="364" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="365" Name="365" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="366" Name="366" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="367" Name="367" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="368" Name="368" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="369" Name="369" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="370" Name="370" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="371" Name="371" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="372" Name="UTAus" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="373" Name="373" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="374" Name="374" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="375" Name="375" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="376" Name="376" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="377" Name="377" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="378" Name="378" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="379" Name="379" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="380" Name="380" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="381" Name="381" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="382" Name="382" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="383" Name="383" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="384" Name="384" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="385" Name="385" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="386" Name="386" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="387" Name="387" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="388" Name="388" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="389" Name="389" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="390" Name="390" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="391" Name="391" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="392" Name="UTAus2" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="393" Name="393" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="394" Name="394" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="395" Name="395" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="396" Name="396" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="397" Name="397" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="398" Name="398" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="399" Name="399" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="400" Name="400" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="401" Name="401" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="402" Name="402" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="403" Name="403" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="404" Name="404" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="405" Name="405" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="406" Name="406" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="407" Name="407" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="408" Name="408" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="409" Name="409" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="410" Name="410" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="411" Name="411" Type="1">
+    <Value>200</Value>
+    <Raw>yMgAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="412" Name="Mitschalt1" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="413" Name="413" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="414" Name="414" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="415" Name="415" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="416" Name="416" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="417" Name="417" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="418" Name="418" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="419" Name="419" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="420" Name="420" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="421" Name="421" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="422" Name="422" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="423" Name="423" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="424" Name="424" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="425" Name="425" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="426" Name="426" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="427" Name="427" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="428" Name="428" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="429" Name="429" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="430" Name="430" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="431" Name="431" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="432" Name="Mitschalt2" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="433" Name="433" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="434" Name="434" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="435" Name="435" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="436" Name="436" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="437" Name="437" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="438" Name="438" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="439" Name="439" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="440" Name="440" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="441" Name="441" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="442" Name="442" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="443" Name="443" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="444" Name="444" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="445" Name="445" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="446" Name="446" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="447" Name="447" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="448" Name="448" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="449" Name="449" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="450" Name="450" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="451" Name="451" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="452" Name="Mitschalt3" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="453" Name="453" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="454" Name="454" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="455" Name="455" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="456" Name="456" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="457" Name="457" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="458" Name="458" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="459" Name="459" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="460" Name="460" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="461" Name="461" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="462" Name="462" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="463" Name="463" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="464" Name="464" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="465" Name="465" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="466" Name="466" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="467" Name="467" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="468" Name="468" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="469" Name="469" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="470" Name="470" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="471" Name="471" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="472" Name="Vorrang1" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="473" Name="473" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="474" Name="474" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="475" Name="475" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="476" Name="476" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="477" Name="477" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="478" Name="478" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="479" Name="479" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="480" Name="480" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="481" Name="481" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="482" Name="482" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="483" Name="483" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="484" Name="484" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="485" Name="485" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="486" Name="486" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="487" Name="487" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="488" Name="488" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="489" Name="489" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="490" Name="490" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="491" Name="491" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="492" Name="Vorrang2" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="493" Name="493" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="494" Name="494" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="495" Name="495" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="496" Name="496" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="497" Name="497" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="498" Name="498" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="499" Name="499" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="500" Name="500" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="501" Name="501" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="502" Name="502" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="503" Name="503" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="504" Name="504" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="505" Name="505" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="506" Name="506" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="507" Name="507" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="508" Name="508" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="509" Name="509" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="510" Name="510" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="511" Name="511" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="512" Name="Vorrang3" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="513" Name="513" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="514" Name="514" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="515" Name="515" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="516" Name="516" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="517" Name="517" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="518" Name="518" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="519" Name="519" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="520" Name="520" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="521" Name="521" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="522" Name="522" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="523" Name="523" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="524" Name="524" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="525" Name="525" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="526" Name="526" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="527" Name="527" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="528" Name="528" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="529" Name="529" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="530" Name="530" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="531" Name="531" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="532" Name="Freigabe1" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="533" Name="533" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="534" Name="534" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="535" Name="535" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="536" Name="536" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="537" Name="537" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="538" Name="538" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="539" Name="539" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="540" Name="540" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="541" Name="541" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="542" Name="542" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="543" Name="543" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="544" Name="544" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="545" Name="545" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="546" Name="546" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="547" Name="547" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="548" Name="548" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="549" Name="549" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="550" Name="550" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="551" Name="551" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="552" Name="Freigabe2" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="553" Name="553" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="554" Name="554" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="555" Name="555" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="556" Name="556" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="557" Name="557" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="558" Name="558" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="559" Name="559" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="560" Name="560" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="561" Name="561" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="562" Name="562" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="563" Name="563" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="564" Name="564" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="565" Name="565" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="566" Name="566" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="567" Name="567" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="568" Name="568" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="569" Name="569" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="570" Name="570" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="571" Name="571" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="572" Name="Freigabe3" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="573" Name="573" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="574" Name="574" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="575" Name="575" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="576" Name="576" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="577" Name="577" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="578" Name="578" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="579" Name="579" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="580" Name="580" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="581" Name="581" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="582" Name="582" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="583" Name="583" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="584" Name="584" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="585" Name="585" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="586" Name="586" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="587" Name="587" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="588" Name="588" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="589" Name="589" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="590" Name="590" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="591" Name="591" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="592" Name="MitschaltInv1" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="593" Name="593" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="594" Name="594" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="595" Name="595" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="596" Name="596" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="597" Name="597" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="598" Name="598" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="599" Name="599" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="600" Name="600" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="601" Name="601" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="602" Name="602" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="603" Name="603" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="604" Name="604" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="605" Name="605" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="606" Name="606" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="607" Name="607" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="608" Name="608" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="609" Name="609" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="610" Name="610" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="611" Name="611" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="612" Name="MitschaltInv2" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="613" Name="613" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="614" Name="614" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="615" Name="615" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="616" Name="616" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="617" Name="617" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="618" Name="618" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="619" Name="619" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="620" Name="620" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="621" Name="621" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="622" Name="622" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="623" Name="623" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="624" Name="624" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="625" Name="625" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="626" Name="626" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="627" Name="627" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="628" Name="628" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="629" Name="629" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="630" Name="630" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="631" Name="631" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="632" Name="MitschaltInv3" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="633" Name="633" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="634" Name="634" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="635" Name="635" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="636" Name="636" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="637" Name="637" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="638" Name="638" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="639" Name="639" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="640" Name="640" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="641" Name="641" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="642" Name="642" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="643" Name="643" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="644" Name="644" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="645" Name="645" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="646" Name="646" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="647" Name="647" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="648" Name="648" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="649" Name="649" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="650" Name="650" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="651" Name="651" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="652" Name="Rueckkuehlung" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="653" Name="653" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="654" Name="654" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="655" Name="655" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="656" Name="656" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="657" Name="657" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="658" Name="658" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="659" Name="659" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="660" Name="660" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="661" Name="661" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="662" Name="662" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="663" Name="663" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="664" Name="664" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="665" Name="665" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="666" Name="666" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="667" Name="667" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="668" Name="668" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="669" Name="669" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="670" Name="670" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="671" Name="671" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="672" Name="VerzoegerEin" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="673" Name="673" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="674" Name="674" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="675" Name="675" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="676" Name="676" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="677" Name="677" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="678" Name="678" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="679" Name="679" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="680" Name="680" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="681" Name="681" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="682" Name="682" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="683" Name="683" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="684" Name="684" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="685" Name="685" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="686" Name="686" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="687" Name="687" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="688" Name="688" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="689" Name="689" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="690" Name="690" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="691" Name="691" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="692" Name="VerzoegerAus" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="693" Name="693" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="694" Name="694" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="695" Name="695" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="696" Name="696" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="697" Name="697" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="698" Name="698" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="699" Name="699" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="700" Name="700" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="701" Name="701" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="702" Name="702" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="703" Name="703" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="704" Name="704" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="705" Name="705" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="706" Name="706" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="707" Name="707" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="708" Name="708" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="709" Name="709" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="710" Name="710" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="711" Name="711" Type="1">
+    <Value>0</Value>
+    <Raw>ALQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="712" Name="Verschaltung" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="713" Name="713" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="714" Name="714" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="715" Name="715" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="716" Name="716" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="717" Name="717" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="718" Name="718" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="719" Name="719" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="720" Name="720" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="721" Name="721" Type="1">
+    <Value>1</Value>
+    <Raw>AQEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="722" Name="StatMode" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="723" Name="723" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="724" Name="724" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="725" Name="725" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="726" Name="726" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="727" Name="727" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="728" Name="728" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="729" Name="729" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="730" Name="730" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="731" Name="731" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="732" Name="OutputMode" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="733" Name="733" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="734" Name="734" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="735" Name="735" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="736" Name="736" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="737" Name="737" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="738" Name="738" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="739" Name="739" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="740" Name="740" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="741" Name="741" Type="1">
+    <Value>2</Value>
+    <Raw>AgIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="742" Name="LeistungFixwert" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="743" Name="743" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="744" Name="744" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="745" Name="745" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="746" Name="746" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="747" Name="747" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="748" Name="748" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="749" Name="749" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="750" Name="750" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="751" Name="751" Type="1">
+    <Value>0</Value>
+    <Raw>APoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="752" Name="Blockierschutz" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="753" Name="753" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="754" Name="754" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="755" Name="755" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="756" Name="756" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="757" Name="757" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="758" Name="758" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="759" Name="759" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="760" Name="760" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="761" Name="761" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="762" Name="DrehzahlRegelung" Type="1">
+    <Value>0</Value>
+    <Raw>AAYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="763" Name="763" Type="1">
+    <Value>0</Value>
+    <Raw>AAYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="764" Name="764" Type="1">
+    <Value>0</Value>
+    <Raw>AAYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="765" Name="DrehzahlRegelungOutMode" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="766" Name="766" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="767" Name="767" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="768" Name="DrehzahlRegelungF1" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="769" Name="769" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="770" Name="770" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="771" Name="DrehzahlRegelungF2" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="772" Name="772" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="773" Name="773" Type="1">
+    <Value>1</Value>
+    <Raw>AQQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="774" Name="DrehzahlRegelungSoll" Type="1">
+    <Value>5</Value>
+    <Raw>BWMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="775" Name="775" Type="1">
+    <Value>5</Value>
+    <Raw>BWMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="776" Name="776" Type="1">
+    <Value>5</Value>
+    <Raw>BWMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="777" Name="DrehzahlRegelungOffset" Type="1">
+    <Value>0</Value>
+    <Raw>AGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="778" Name="778" Type="1">
+    <Value>0</Value>
+    <Raw>AGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="779" Name="779" Type="1">
+    <Value>0</Value>
+    <Raw>AGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="780" Name="DrehzahlRegelungMinOut" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="781" Name="781" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="782" Name="782" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="783" Name="DrehzahlRegelungMaxOut" Type="1">
+    <Value>100</Value>
+    <Raw>ZGQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="784" Name="784" Type="1">
+    <Value>100</Value>
+    <Raw>ZGQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="785" Name="785" Type="1">
+    <Value>100</Value>
+    <Raw>ZGQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="786" Name="DrehzahlRegelungKp" Type="1">
+    <Value>100</Value>
+    <Raw>ZGScAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="787" Name="787" Type="1">
+    <Value>100</Value>
+    <Raw>ZGScAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="788" Name="788" Type="1">
+    <Value>100</Value>
+    <Raw>ZGScAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="789" Name="DrehzahlRegelungKi" Type="1">
+    <Value>100</Value>
+    <Raw>ZGScAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="790" Name="790" Type="1">
+    <Value>100</Value>
+    <Raw>ZGScAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="791" Name="791" Type="1">
+    <Value>100</Value>
+    <Raw>ZGScAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="792" Name="DrehzahlRegelungTa" Type="1">
+    <Value>60</Value>
+    <Raw>PPoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="793" Name="793" Type="1">
+    <Value>60</Value>
+    <Raw>PPoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="794" Name="794" Type="1">
+    <Value>60</Value>
+    <Raw>PPoAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="795" Name="SoFVorrang" Type="1">
+    <Value>1</Value>
+    <Raw>AQEBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="796" Name="796" Type="1">
+    <Value>1</Value>
+    <Raw>AQEBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="797" Name="797" Type="1">
+    <Value>1</Value>
+    <Raw>AQEBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="798" Name="798" Type="1">
+    <Value>1</Value>
+    <Raw>AQEBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="799" Name="799" Type="1">
+    <Value>1</Value>
+    <Raw>AQEBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="800" Name="800" Type="1">
+    <Value>1</Value>
+    <Raw>AQEBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="801" Name="SoFKollektorDiff" Type="1">
+    <Value>5</Value>
+    <Raw>BRQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="802" Name="MiHeizkurve" Type="1">
+    <Value>25</Value>
+    <Raw>GfsAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="803" Name="803" Type="1">
+    <Value>25</Value>
+    <Raw>GfsAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="804" Name="MiNullpunkt" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="805" Name="805" Type="1">
+    <Value>40</Value>
+    <Raw>KMYAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="806" Name="MiMinTemp" Type="1">
+    <Value>25</Value>
+    <Raw>GWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="807" Name="807" Type="1">
+    <Value>25</Value>
+    <Raw>GWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="808" Name="MiMaxTemp" Type="1">
+    <Value>70</Value>
+    <Raw>RmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="809" Name="809" Type="1">
+    <Value>70</Value>
+    <Raw>RmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="810" Name="MiRaumReg" Type="1">
+    <Value>0</Value>
+    <Raw>ADLOAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="811" Name="811" Type="1">
+    <Value>0</Value>
+    <Raw>ADLOAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="812" Name="MiRaumTmpNormal" Type="1">
+    <Value>44</Value>
+    <Raw>LFAAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="813" Name="813" Type="1">
+    <Value>44</Value>
+    <Raw>LFAAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="814" Name="MiRaumTmpAbsenk" Type="1">
+    <Value>36</Value>
+    <Raw>JFABAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="815" Name="815" Type="1">
+    <Value>36</Value>
+    <Raw>JFABAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="816" Name="MiAbsenkTmp" Type="1">
+    <Value>5</Value>
+    <Raw>BRQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="817" Name="817" Type="1">
+    <Value>5</Value>
+    <Raw>BRQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="818" Name="MiUeberhoehungTemp" Type="1">
+    <Value>10</Value>
+    <Raw>CmQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="819" Name="819" Type="1">
+    <Value>10</Value>
+    <Raw>CmQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="820" Name="MiHysterese" Type="1">
+    <Value>5</Value>
+    <Raw>BTIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="821" Name="821" Type="1">
+    <Value>5</Value>
+    <Raw>BTIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="822" Name="MiRaumfaktor" Type="1">
+    <Value>2</Value>
+    <Raw>AgoBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="823" Name="823" Type="1">
+    <Value>2</Value>
+    <Raw>AgoBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="824" Name="MiGeschwindigkeit" Type="1">
+    <Value>5</Value>
+    <Raw>BQoBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="825" Name="825" Type="1">
+    <Value>5</Value>
+    <Raw>BQoBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="826" Name="MiMischStop" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="827" Name="827" Type="1">
+    <Value>0</Value>
+    <Raw>AAQAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="828" Name="MiMaxTmpAussen" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="829" Name="829" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="830" Name="MiMaxTmpAbsAussen" Type="1">
+    <Value>12</Value>
+    <Raw>DGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="831" Name="831" Type="1">
+    <Value>12</Value>
+    <Raw>DGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="832" Name="MiFrostschutz" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="833" Name="833" Type="1">
+    <Value>0</Value>
+    <Raw>AAEAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="834" Name="MiFrostschutzSollTemp" Type="1">
+    <Value>15</Value>
+    <Raw>Dx4BAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="835" Name="835" Type="1">
+    <Value>15</Value>
+    <Raw>Dx4BAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="836" Name="MiStatMode" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="837" Name="837" Type="1">
+    <Value>0</Value>
+    <Raw>AH8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="838" Name="MiEstrStartStopTemp" Type="1">
+    <Value>20</Value>
+    <Raw>FGMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="839" Name="839" Type="1">
+    <Value>20</Value>
+    <Raw>FGMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="840" Name="MiEstrMaxTemp" Type="1">
+    <Value>45</Value>
+    <Raw>LWMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="841" Name="841" Type="1">
+    <Value>45</Value>
+    <Raw>LWMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="842" Name="MiEstrAnstieg" Type="1">
+    <Value>5</Value>
+    <Raw>BWMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="843" Name="843" Type="1">
+    <Value>5</Value>
+    <Raw>BWMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="844" Name="MiEstrAbsenkung" Type="1">
+    <Value>5</Value>
+    <Raw>BWMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="845" Name="845" Type="1">
+    <Value>5</Value>
+    <Raw>BWMBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="846" Name="MiEstrHaltezeit" Type="1">
+    <Value>3</Value>
+    <Raw>AxQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="847" Name="847" Type="1">
+    <Value>3</Value>
+    <Raw>AxQBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="848" Name="MiRaumRegMode" Type="1">
+    <Value>0</Value>
+    <Raw>AAMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="849" Name="849" Type="1">
+    <Value>0</Value>
+    <Raw>AAMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="850" Name="HKGleitfktMode" Type="1">
+    <Value>0</Value>
+    <Raw>AAAAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="851" Name="HKUeberhoehungsTemp" Type="1">
+    <Value>10</Value>
+    <Raw>CmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="852" Name="HKMinTemp" Type="1">
+    <Value>25</Value>
+    <Raw>GWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="853" Name="HKMaxTemp" Type="1">
+    <Value>70</Value>
+    <Raw>RmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="854" Name="HKNullpunktTemp" Type="1">
+    <Value>20</Value>
+    <Raw>FGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="855" Name="HKSteigung" Type="1">
+    <Value>5</Value>
+    <Raw>BTIBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="856" Name="HKMaxAussenTemp" Type="1">
+    <Value>18</Value>
+    <Raw>EmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="857" Name="HKNullpunktGl" Type="1">
+    <Value>10</Value>
+    <Raw>CmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="858" Name="HKSteigungGl" Type="1">
+    <Value>14</Value>
+    <Raw>DjIBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="859" Name="HKMinTempGl" Type="1">
+    <Value>50</Value>
+    <Raw>MmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="860" Name="HKMaxTempGl" Type="1">
+    <Value>70</Value>
+    <Raw>RmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="861" Name="HKMaxAnfTemp" Type="1">
+    <Value>70</Value>
+    <Raw>RmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="862" Name="HKMaxDRT" Type="1">
+    <Value>10</Value>
+    <Raw>CmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="863" Name="HKNachstellZeit" Type="1">
+    <Value>30</Value>
+    <Raw>HmMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="864" Name="HKQMin" Type="1">
+    <Value>-1</Value>
+    <Raw>/2T/AQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="865" Name="HKVerzoegerungsZeit" Type="1">
+    <Value>1</Value>
+    <Raw>AWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="866" Name="HKSperrzeit" Type="1">
+    <Value>5</Value>
+    <Raw>BWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="867" Name="HKAufzeitNachSperre" Type="1">
+    <Value>60</Value>
+    <Raw>PGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="868" Name="HKAuskuehlschutzVerzoegerungsZeit" Type="1">
+    <Value>60</Value>
+    <Raw>PGMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="869" Name="HKFestAnforderungsUeberhoehungsTemp" Type="1">
+    <Value>5</Value>
+    <Raw>BWMAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="870" Name="HKFestAnforderungsKanal1" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="871" Name="HKFestAnforderungsKanal2" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="872" Name="HKFestAnforderungsKanal3" Type="1">
+    <Value>0</Value>
+    <Raw>AAIAAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="873" Name="HKGeschwindigkeit" Type="1">
+    <Value>5</Value>
+    <Raw>BQoBAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="874" Name="MaxStdConfigEntryIndex" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="875" Name="875" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="876" Name="876" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="877" Name="877" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="878" Name="878" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="879" Name="879" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="880" Name="880" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="881" Name="881" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="882" Name="882" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="883" Name="883" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="884" Name="884" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="885" Name="885" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="886" Name="886" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="887" Name="887" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="888" Name="888" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="889" Name="889" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="890" Name="890" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="891" Name="891" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="892" Name="892" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="893" Name="893" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="894" Name="894" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="895" Name="895" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="896" Name="896" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="897" Name="897" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="898" Name="898" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="899" Name="899" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="900" Name="900" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="901" Name="901" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="902" Name="902" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="903" Name="903" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="904" Name="904" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="905" Name="905" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="906" Name="906" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="907" Name="907" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="908" Name="908" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="909" Name="909" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="910" Name="910" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="911" Name="911" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="912" Name="912" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="913" Name="913" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="914" Name="SchaltuhrW" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="915" Name="915" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="916" Name="916" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="917" Name="917" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="918" Name="918" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="919" Name="919" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="920" Name="920" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="921" Name="921" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="922" Name="922" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="923" Name="923" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="924" Name="924" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="925" Name="925" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="926" Name="926" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="927" Name="927" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="928" Name="928" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="929" Name="929" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="930" Name="930" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="931" Name="931" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="932" Name="932" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="933" Name="933" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="934" Name="934" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="935" Name="935" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="936" Name="936" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="937" Name="937" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="938" Name="938" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="939" Name="939" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="940" Name="940" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="941" Name="941" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="942" Name="942" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="943" Name="943" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="944" Name="944" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="945" Name="945" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="946" Name="946" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="947" Name="947" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="948" Name="948" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="949" Name="949" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="950" Name="950" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="951" Name="951" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="952" Name="952" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="953" Name="953" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="954" Name="954" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="955" Name="955" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="956" Name="956" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="957" Name="957" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="958" Name="958" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="959" Name="959" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="960" Name="960" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="961" Name="961" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="962" Name="962" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="963" Name="963" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="964" Name="964" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="965" Name="965" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="966" Name="966" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="967" Name="967" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="968" Name="968" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="969" Name="969" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="970" Name="970" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="971" Name="971" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="972" Name="972" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="973" Name="973" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="974" Name="974" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="975" Name="975" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="976" Name="976" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="977" Name="977" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="978" Name="978" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="979" Name="979" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="980" Name="980" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="981" Name="981" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="982" Name="982" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="983" Name="983" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="984" Name="SchaltuhrMischerT" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="985" Name="985" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="986" Name="986" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="987" Name="987" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="988" Name="988" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="989" Name="989" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="990" Name="990" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="991" Name="991" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="992" Name="SchaltuhrMischerW" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="993" Name="993" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="994" Name="994" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="995" Name="995" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="996" Name="996" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="997" Name="997" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="998" Name="998" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="999" Name="999" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1000" Name="1000" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1001" Name="1001" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1002" Name="1002" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1003" Name="1003" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1004" Name="1004" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1005" Name="1005" Type="1">
+    <Value>255</Value>
+    <Raw>////AA==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1006" Name="ScreenRights" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1007" Name="1007" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1008" Name="1008" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1009" Name="1009" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1010" Name="1010" Type="1">
+    <Value>2</Value>
+    <Raw>Av8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1011" Name="1011" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1012" Name="1012" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1013" Name="1013" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1014" Name="1014" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1015" Name="1015" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1016" Name="1016" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1017" Name="1017" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1018" Name="1018" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1019" Name="1019" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1020" Name="1020" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1021" Name="1021" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1022" Name="1022" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1023" Name="1023" Type="1">
+    <Value>8</Value>
+    <Raw>CP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1024" Name="1024" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1025" Name="1025" Type="1">
+    <Value>128</Value>
+    <Raw>gP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1026" Name="1026" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1027" Name="1027" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1028" Name="1028" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1029" Name="1029" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1030" Name="1030" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1031" Name="1031" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1032" Name="1032" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1033" Name="1033" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1034" Name="1034" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1035" Name="1035" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1036" Name="1036" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1037" Name="1037" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1038" Name="1038" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1039" Name="1039" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1040" Name="1040" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1041" Name="1041" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1042" Name="1042" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1043" Name="1043" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1044" Name="1044" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1045" Name="1045" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1046" Name="1046" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1047" Name="1047" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1048" Name="1048" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1049" Name="1049" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1050" Name="1050" Type="1">
+    <Value>127</Value>
+    <Raw>f/8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1051" Name="1051" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1052" Name="1052" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1053" Name="1053" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1054" Name="1054" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1055" Name="1055" Type="1">
+    <Value>128</Value>
+    <Raw>gP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1056" Name="1056" Type="1">
+    <Value>251</Value>
+    <Raw>+/8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1057" Name="1057" Type="1">
+    <Value>255</Value>
+    <Raw>//8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1058" Name="1058" Type="1">
+    <Value>7</Value>
+    <Raw>B/8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1059" Name="1059" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1060" Name="1060" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1061" Name="1061" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1062" Name="1062" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1063" Name="1063" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1064" Name="1064" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1065" Name="1065" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1066" Name="1066" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1067" Name="1067" Type="1">
+    <Value>254</Value>
+    <Raw>/v8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1068" Name="1068" Type="1">
+    <Value>7</Value>
+    <Raw>B/8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1069" Name="1069" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1070" Name="1070" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1071" Name="1071" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1072" Name="1072" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1073" Name="1073" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1074" Name="1074" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1075" Name="1075" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1076" Name="1076" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1077" Name="1077" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1078" Name="1078" Type="1">
+    <Value>248</Value>
+    <Raw>+P8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1079" Name="1079" Type="1">
+    <Value>31</Value>
+    <Raw>H/8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1080" Name="1080" Type="1">
+    <Value>128</Value>
+    <Raw>gP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1081" Name="1081" Type="1">
+    <Value>49</Value>
+    <Raw>Mf8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1082" Name="1082" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1083" Name="1083" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1084" Name="1084" Type="1">
+    <Value>99</Value>
+    <Raw>Y/8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1085" Name="1085" Type="1">
+    <Value>12</Value>
+    <Raw>DP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1086" Name="1086" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1087" Name="1087" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1088" Name="1088" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1089" Name="1089" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1090" Name="1090" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1091" Name="1091" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1092" Name="1092" Type="1">
+    <Value>198</Value>
+    <Raw>xv8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1093" Name="1093" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1094" Name="1094" Type="1">
+    <Value>96</Value>
+    <Raw>YP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1095" Name="1095" Type="1">
+    <Value>12</Value>
+    <Raw>DP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1096" Name="1096" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1097" Name="1097" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1098" Name="1098" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1099" Name="1099" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1100" Name="1100" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1101" Name="1101" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1102" Name="1102" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1103" Name="1103" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1104" Name="1104" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1105" Name="1105" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1106" Name="1106" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1107" Name="1107" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1108" Name="1108" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1109" Name="1109" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1110" Name="1110" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1111" Name="1111" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1112" Name="1112" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1113" Name="1113" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1114" Name="1114" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1115" Name="1115" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1116" Name="1116" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1117" Name="1117" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1118" Name="1118" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1119" Name="1119" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1120" Name="1120" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1121" Name="1121" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1122" Name="1122" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1123" Name="1123" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1124" Name="1124" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1125" Name="1125" Type="1">
+    <Value>0</Value>
+    <Raw>AP8AAQ==</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1126" Name="UserFuehlerTexte" Type="2">
+    <Raw>RgAwADEAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1127" Name="1127" Type="2">
+    <Raw>RgAwADIAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1128" Name="1128" Type="2">
+    <Raw>RgAwADMAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1129" Name="1129" Type="2">
+    <Raw>RgAwADQAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1130" Name="1130" Type="2">
+    <Raw>RgAwADUAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1131" Name="1131" Type="2">
+    <Raw>RgAwADYAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1132" Name="1132" Type="2">
+    <Raw>RgAwADcAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1133" Name="1133" Type="2">
+    <Raw>RgAwADgAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1134" Name="1134" Type="2">
+    <Raw>RgAwADkAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1135" Name="1135" Type="2">
+    <Raw>RgAxADAAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1136" Name="1136" Type="2">
+    <Raw>RgAxADEAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1137" Name="1137" Type="2">
+    <Raw>RgAxADIAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1138" Name="1138" Type="2">
+    <Raw>RgAxADMAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1139" Name="1139" Type="2">
+    <Raw>RgAxADQAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+  <Setting ID="1140" Name="1140" Type="2">
+    <Raw>RgAxADUAIAAgACAAIAAgACAA</Raw>
+    <Note>
+    </Note>
+  </Setting>
+</DeviceSettings>
