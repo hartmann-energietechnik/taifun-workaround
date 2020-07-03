@@ -29,7 +29,7 @@ addfile_infotitle=PV*SOL Informationen
 # Skript zur Erstellung der Zusammenfassung
 addfile_getinfo=pvprj.ps1
 ```
-4. Standardprogramm für `.txt` auf die Anwendung `%AppData%\taifun_open_files.exe` ändern
+4. Standardprogramm für `.txt` auf die Anwendung `%AppData%\taifun-workaround\taifun_open_files.exe` ändern
 
 ## Ablauf
 
@@ -39,22 +39,22 @@ addfile_getinfo=pvprj.ps1
 3. Datei ins Archiv hinzufügen
 
 **Datei aus dem Archiv öffnen (*Hintergrund*)**
-1. `taifun_open_files.exe` wird von TAIFUN gestartet als Standardprogramm von `.txt`-Dateien gestartet
-3. *Wenn eine Zusammenfassung verfügbar ist, wird sie zuerst entfernt
+1. `taifun_open_files.exe` wird von TAIFUN gestartet (Da es das Standardprogramm von `.txt`-Dateien ist)
+3. Wenn eine Zusammenfassung verfügbar ist, wird diese entfernt
 2. Es wird eine Kopie angelegt `{GUID}.txt` -> `%Temp%\TaifunFiles\{GUID}.[Erkannte Dateiendung]`
 3. die Kopie wird als Child-Prozess von `taifun_open_files.exe` mit dem eigentlichen Standardprogramm geöffnet
 
 **Datei wurde geändert und das Bearbeitungsprogramm geschlossen (*Hintergrund*)**
 
-4. *Wenn in den `options.ini` ein PowerShell-Skript hinterlegt wurde, welches eine Zusammenfassung des Inhaltes erstellt, wird dieses nun ausgeführt
-5. *Die Zusammenfassung des Inhalts wird an den Anfang der Datei hinzugefügt
+4. Wenn in den `options.ini` ein PowerShell-Skript hinterlegt wurde, welches eine Zusammenfassung des Inhaltes erstellt, wird dieses nun ausgeführt
+5. Wenn vorhanden wird die Zusammenfassung an den Anfang der Datei hinzugefügt
 4. Die Originaldatei wird überschrieben: `%Temp%\TaifunFiles\{GUID}.[Erkannte Dateiendung]` -> `{GUID}.txt`
 5. `taifun_open_files.exe` schließt sich automatisch 
 6. TAIFUN erkennt die Beendigung des Child-Prozesses und zeigt die Optionen für die Versionierung im Falle einer Änderung an
 
 ## Fallback
 
-Wenn eine `.txt`-Datei mit `taifun_open_files.exe` als Standartprogramm geöffnet wird und der Parent-Process nicht `tfw.exe` im Namen enthält wird der Fallback gestartet. Standard ist `notepad.exe`, kann aber über die `options.ini` geändert werden.
+Wenn eine `.txt`-Datei mit `taifun_open_files.exe` geöffnet wird und der Parent-Process nicht `tfw.exe` im Namen enthält wird diese mit dem Fallback geöffnet. Standard ist `notepad.exe`, kann aber über die `options.ini` geändert werden.
 
 ```ini
 fallback=C:\Windows\system32\notepad.exe
@@ -64,7 +64,7 @@ fallback=C:\Windows\system32\notepad.exe
 
 Die `.cpp`-Dateien kann man zum Beispiel mit den [Visual Build Tools](https://visualstudio.microsoft.com/de/visual-cpp-build-tools/)  kompilieren.
 
-Wenn diese installiert sind `build.bat` ausführen ggf. muss der Pfad zu `vcvars64.bat` angepasst werden.
+Wenn diese installiert sind `build.bat` ausführen (ggf. muss der Pfad zu `vcvars64.bat` angepasst werden).
 
 Über die `options.ini` kann ein Entwicklungsmodus gestartet werden, der es erleichtert, Fehler durch eine erweiterte Ausgabe leichter zu erkennen.
 ```ini
