@@ -40,6 +40,8 @@ param (
     [string] $saveFile = ""
 )
 
+."$PSScriptRoot\json-to-table.ps1"
+
 $results = [pscustomobject] @{
     PVLeistung = ''
     Investitionskosten = ''
@@ -149,56 +151,58 @@ if ($DBJSONData.Batteries.Length -eq 0) {
     catch {}
 }
 
-function Format-Json {
+# function Format-Json {
 
-    # https://stackoverflow.com/questions/56322993/proper-formating-of-json-using-powershell/56324939
+#     # https://stackoverflow.com/questions/56322993/proper-formating-of-json-using-powershell/56324939
 
-    [CmdletBinding(DefaultParameterSetName = 'Prettify')]
-    Param(
-        [Parameter(Mandatory = $true, Position = 0, ValueFromPipeline = $true)]
-        [string]$Json,
+#     [CmdletBinding(DefaultParameterSetName = 'Prettify')]
+#     Param(
+#         [Parameter(Mandatory = $true, Position = 0, ValueFromPipeline = $true)]
+#         [string]$Json,
 
-        [Parameter(ParameterSetName = 'Minify')]
-        [switch]$Minify,
+#         [Parameter(ParameterSetName = 'Minify')]
+#         [switch]$Minify,
 
-        [Parameter(ParameterSetName = 'Prettify')]
-        [switch]$AsArray
-    )
+#         [Parameter(ParameterSetName = 'Prettify')]
+#         [switch]$AsArray
+#     )
 
-    [int]$Indentation = 2;
+#     [int]$Indentation = 2;
 
-    if ($PSCmdlet.ParameterSetName -eq 'Minify') {
-        return ($Json | ConvertFrom-Json) | ConvertTo-Json -Depth 100 -Compress
-    }
+#     if ($PSCmdlet.ParameterSetName -eq 'Minify') {
+#         return ($Json | ConvertFrom-Json) | ConvertTo-Json -Depth 100 -Compress
+#     }
 
-    if ($Json -notmatch '\r?\n') {
-        $Json = ($Json | ConvertFrom-Json) | ConvertTo-Json -Depth 100
-    }
+#     if ($Json -notmatch '\r?\n') {
+#         $Json = ($Json | ConvertFrom-Json) | ConvertTo-Json -Depth 100
+#     }
 
-    $indent = 0
-    $regexUnlessQuoted = '(?=([^"]*"[^"]*")*[^"]*$)'
+#     $indent = 0
+#     $regexUnlessQuoted = '(?=([^"]*"[^"]*")*[^"]*$)'
 
-    $result = $Json -split '\r?\n' |
-        ForEach-Object {
-            if ($_ -match "[}\]]$regexUnlessQuoted") {
-                $indent = [Math]::Max($indent - $Indentation, 0)
-            }
+#     $result = $Json -split '\r?\n' |
+#         ForEach-Object {
+#             if ($_ -match "[}\]]$regexUnlessQuoted") {
+#                 $indent = [Math]::Max($indent - $Indentation, 0)
+#             }
 
-            $line = (' ' * $indent) + ($_.TrimStart() -replace ":\s+$regexUnlessQuoted", ': ')
-            if ($_ -match "[\{\[]$regexUnlessQuoted") {
-                $indent += $Indentation
-            }
+#             $line = (' ' * $indent) + ($_.TrimStart() -replace ":\s+$regexUnlessQuoted", ': ')
+#             if ($_ -match "[\{\[]$regexUnlessQuoted") {
+#                 $indent += $Indentation
+#             }
 
-            $line
-        }
+#             $line
+#         }
 
-    if ($AsArray) { return $result }
-    return $result -Join [Environment]::NewLine
-}
+#     if ($AsArray) { return $result }
+#     return $result -Join [Environment]::NewLine
+# }
 
 
+$results = ConvertFrom-JsonTable -json ($results | convertto-json | ConvertFrom-json);
 
-$Text = [String] ("PV*SOL Informationen`n" + ($results | convertto-json | Format-Json))
+$Text = [String] ("PV*SOL Informationen`n" + $results)
+
 
 $output = $Text.Replace('ö','oe').Replace('ä','ae').Replace('ü','ue').Replace('ß','ss').Replace('Ö','Oe').Replace('Ü','Ue').Replace('Ä','Ae')
 $isCapitalLetter = $Text -ceq $Text.toUpper()

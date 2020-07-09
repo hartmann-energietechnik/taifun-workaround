@@ -49,6 +49,20 @@ addfile_getinfo=pvprj.ps1
 
 Wenn eine .txt Datei mit `taifun_open_files.exe` geöffnet wird und der Parent-Process nicht `tfw.exe` heißt wird der Fallback gestartet. Standard ist notepad.exe.
 
+## Ideen
+
+### PV*SOL Premium
+
+1. Beim öffnen einer PV*Sol-Datei aus TAIFUN openDocuments wird neben der Datei ein Ordner angelegt, in dem Zusatzinformationen (zB. Dachmaße, Screenshots, ...) zu dem Projekt gespeichert werden können
+2. Wenn schon vorhanden wird er ggf. nur kopiert
+4. *PV\*Sol wird geöffnet*
+4. Der Zusatzordner wird automatisch (anpassbar über die `options.ini`) mit geöffnet
+4. ODER: wenn PV*SOL Premium nicht auf dem Rechner installiert ist, wird nur dieser Ornder geöffnet (Es wird eine MsBox geöffnet: Änderungen im Ordner übernehmen - Abbrechen)
+5. *PV\*Sol wird geschlossen*
+6. Der Zusatzordner wird dem  .pvprj Archiv hinzugefügt
+
+Verknüpfung zum aktuellen Ordner in den ``TaifunFiles`` (<- An den Schnellzugriff anheften) anlegen.
+
 ```ini
 fallback=C:\Windows\system32\notepad.exe
 ```

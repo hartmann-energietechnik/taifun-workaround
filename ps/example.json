@@ -1,0 +1,43 @@
+{
+    "PVLeistung": "9.75 kWp",
+    "Investitionskosten": "1500.0 Euro",
+    "Amortisationszeit": "13.68 Jahre",
+    "Wechselrichter": [
+      {
+        "Hersteller": "SMA Solar Technology AG",
+        "Modell": "STP8.0-3AV-40",
+        "Anzahl": "1"
+      }
+    ],
+    "Module": [
+      {
+        "Dach": "Gebaeude 01-Dachflaeche Suedwest",
+        "Hersteller": "Heckert-Solar",
+        "Name": "NeMo 2.0 60 M 325",
+        "Anzahl": "6"
+      },
+      {
+        "Dach": "Gebaeude 02-Modulflaeche Suedwest",
+        "Hersteller": "Heckert-Solar",
+        "Name": "NeMo 2.0 60 M 325",
+        "Anzahl": "3"
+      },
+      {
+        "Dach": "Gebaeude 02-Modulflaeche Nordost",
+        "Hersteller": "Heckert-Solar",
+        "Name": "NeMo 2.0 60 M 325",
+        "Anzahl": "3"
+      },
+      {
+        "Dach": "Gebaeude 01-Dachflaeche Nordost",
+        "Hersteller": "Heckert-Solar",
+        "Name": "NeMo 2.0 60 M 325",
+        "Anzahl": "18"
+      }
+    ],
+    "Batteriesystem": {
+      "Firma": "Keine Batterie",
+      "Modell": "-"
+    },
+    "ElektroAuto": []
+}
