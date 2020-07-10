@@ -4,6 +4,7 @@ tools/*.ini
 
 # Testdateien mit personenbezogenen Daten
 test/_*.*
+test/_*/**/**.*
 
 /*.obj
 /*.exe

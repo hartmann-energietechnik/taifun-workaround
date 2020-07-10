@@ -1,59 +1,14 @@
 
 # .pvprj ist ein einfaches Zip-Archiv
 
-# .\pvprj.ps1 -sourceFile ".\test\full sim.pvprj" -saveFile "./test.json"
-
-# ----- Informationen ------
-# PV-Generatorenleistung: OecForeCast.json : PVLeistung (in kWp)
-# Investitionskosten: OecForeCast.json : Investitionen.Data.Summe (in €)
-# Amortisationszeit: OecForeCast.json : ResultsModel.Data.Amortisationszeit
-
-# Moduleflächen: Project.xml
-# <PVData> {}
-#   <PVModule> []
-#       <Modulfelder> []
-#           <Modulname></Modulname>
-#           <ModulHersteller></ModulHersteller>
-#           <ModulName></ModulName>
-#           <Modulanzahl></Modulanzahl>
-
-# Batteriesystem: Project.xml
-# <Batteriesystem> {}
-#   <Company> {}
-#       <Value></Value>
-#   <SystemName> {}
-#       <Value></Value>
-
-#  Wechselrichter
-
-# E-Autos: Project.xml
-# <ElektroAuto> {}
-#   <Car> []
-#       <ECarAndStationDBHersteller></ECarAndStationDBHersteller>
-#       <ECarAndStationDBName></ECarAndStationDBName>
-#       <AnzahlAutos></AnzahlAutos>
-#       <GewuenschteReichweite> {}
-#           <Value></Value>
+# .\pvprj-info.ps1 -sourceFile "..\test\pvsol.pvprj" -saveFile "./test.txt"
 
 param (
     [string] $sourceFile = "",
     [string] $saveFile = ""
 )
 
-."$PSScriptRoot\json-to-table.ps1"
-
-$results = [pscustomobject] @{
-    PVLeistung = ''
-    Investitionskosten = ''
-    Amortisationszeit = ''
-    Wechselrichter = @()
-    Module = @()
-    Batteriesystem = [pscustomobject] @{
-        Firma = ""
-        Modell = ""
-    }
-    ElektroAuto = @()
-};
+$output = "";
 
 if ($sourceFile -eq "") {
     exit;
@@ -72,6 +27,7 @@ Expand-Archive $sourceFile -DestinationPath $tempFolder
 Remove-Item $sourceFile
 
 $ProjectXML = "$tempFolder\Project.xml";
+$SimResultsXML = "$tempFolder\SimResults.xml";
 $OecForeCastJSON = "$tempFolder\OecForeCast.json";
 $DBJSON = "$tempFolder\DB.json";
 
@@ -84,35 +40,31 @@ if ((Test-Path -Path $OecForeCastJSON) -ne $true ) {
 
 $DBJSONData = Get-Content $DBJSON | Out-String | ConvertFrom-Json
 $OecForeCastJSONData = Get-Content $OecForeCastJSON | Out-String | ConvertFrom-Json
-
-$results.PVLeistung = ([String] $OecForeCastJSONData.PVLeistung) + " kWp";
-$results.Investitionskosten = ([String] $OecForeCastJSONData.Investitionen.Data.Summe) + " Euro";
-$results.Amortisationszeit = ([String] [Math]::Round($OecForeCastJSONData.ResultsModel.Data.Amortisationszeit, 2)) + " Jahre";
-
-
 $ProjectXMLData = [xml] (Get-Content $ProjectXML)
+$SimResultsXMLData = [xml] (Get-Content $SimResultsXML -Encoding utf8)
 
-if ($DBJSONData.Batteries.Length -eq 0) {
-    $results.Batteriesystem.Firma = "Keine Batterie";
-    $results.Batteriesystem.Modell = "-";
-} else {
-    $results.Batteriesystem.Firma = [String] $ProjectXMLData.PVData.Batteriesystem.Company.Value;
-    $results.Batteriesystem.Modell = [String] $ProjectXMLData.PVData.Batteriesystem.SystemName.Value;
+$output += "`n>> Stammdaten <<`n";
+$output += "PV-Generatorleistung: " + ([String] $OecForeCastJSONData.PVLeistung) + " kWp`n"
+$output += "Investitionskosten: " + ([String] $OecForeCastJSONData.Investitionen.Data.Summe) + " Euro`n";
+$output += "Inbetriebnahme Datum: " + ([String] $ProjectXMLData.PVData.ProjektdatenV1.InbetriebnahmeDatum.Value) + "`n";
 
-}
+$output += "`n>> Simulationsergebnisse <<`n";
+$output += "Amortisationszeit: " + ([String] [Math]::Round($OecForeCastJSONData.ResultsModel.Data.Amortisationszeit, 2)) + " Jahre`n";
+$output += "Spez. Jahresertrag: " + ([String] [Math]::Round($SimResultsXMLData.SimResultsXML.OffGridResults.SpezJahresErtrag.YearlyValue)) + " kWh/kWp`n";
+$output += "Eigenverbrauchsanteil: " + ([String] [Math]::Round($SimResultsXMLData.SimResultsXML.VerbrauchResults.Eigenverbrauchsanteil.YearlyValue)) + " %`n";
 
 
 try {
 
     $ParametersNode = $ProjectXMLData.PVData.PVModule.SelectNodes('Modulfelder')
 
+    $output += "`n>> Modulfelder <<`n";
+
     foreach($Node in $ParametersNode){
-        $results.Module += [pscustomobject] @{
-            Dach = [String] $Node.Modulname[0]
-            Hersteller = [String] $Node.ModulHersteller
-            Name = [String] $Node.Modulname[1]
-            Anzahl = [String]  $Node.Modulanzahl.Value
-        }
+
+        $output += "> " + [String] $Node.Modulname[0] + "`n";
+        $output += "" +  [String]  $Node.Modulanzahl.Value + " " + [String] $Node.ModulHersteller + " " + [String] $Node.Modulname[1] + " " +  [String] $Node.InverterName + "`n";
+        
     }
     
 }
@@ -122,97 +74,42 @@ try {
 
     $ParametersNode = $ProjectXMLData.PVData.Wechselrichter.Verschaltung.SelectNodes('WRObj')
 
+    $output += "`n>> Wechselrichter <<`n";
+
     foreach($Node in $ParametersNode){
-        $results.Wechselrichter += [pscustomobject] @{
-            Hersteller = [String] $Node.InverterHersteller
-            Modell = [String] $Node.InverterName
-            Anzahl = [String] $Node.Haeufigkeit
-        }
+
+        $output += "> " + [String] $Node.Haeufigkeit + " " + [String] $Node.InverterHersteller + " " +  [String] $Node.InverterName + "`n";
+
     }
 
 }
 catch {}
 
+if ($DBJSONData.Batteries.Length -ne 0) {
+    $output += "`n>> Batterie <<`n";
+    $output += [String] $ProjectXMLData.PVData.Batteriesystem.Company.Value + " " + [String] $ProjectXMLData.PVData.Batteriesystem.SystemName.Value + "`n";
+}
 
-if ($DBJSONData.Batteries.Length -eq 0) {
-} else {
-    try {
+if ($DBJSONData.CarsAndStations.Length -ne 0) {
+
+     try {
+
+        $output += "`n>> E-Auto <<`n";
         $ParametersNode = $ProjectXMLData.PVData.ElektroAuto.SelectNodes('Car')
 
         foreach($Node in $ParametersNode){
-            $results.ElektroAuto += [pscustomobject] @{
-                Hersteller = [String] $Node.ECarAndStationDBHersteller
-                Modell = [String] $Node.ECarAndStationDBName
-                Anzahl = [String] $Node.AnzahlAutos.Value
-                Reichweite = [String] $Node.GewuenschteReichweite.Value + " km"
-            }
+            $output += "> " + [String] $Node.AnzahlAutos.Value + " " + [String] $Node.ECarAndStationDBHersteller + [String] $Node.ECarAndStationDBName + " (" + [String] $Node.GewuenschteReichweite.Value + "km Reichweite)`n";
         }
+
     }
     catch {}
+    
 }
 
-# function Format-Json {
-
-#     # https://stackoverflow.com/questions/56322993/proper-formating-of-json-using-powershell/56324939
-
-#     [CmdletBinding(DefaultParameterSetName = 'Prettify')]
-#     Param(
-#         [Parameter(Mandatory = $true, Position = 0, ValueFromPipeline = $true)]
-#         [string]$Json,
-
-#         [Parameter(ParameterSetName = 'Minify')]
-#         [switch]$Minify,
-
-#         [Parameter(ParameterSetName = 'Prettify')]
-#         [switch]$AsArray
-#     )
-
-#     [int]$Indentation = 2;
-
-#     if ($PSCmdlet.ParameterSetName -eq 'Minify') {
-#         return ($Json | ConvertFrom-Json) | ConvertTo-Json -Depth 100 -Compress
-#     }
-
-#     if ($Json -notmatch '\r?\n') {
-#         $Json = ($Json | ConvertFrom-Json) | ConvertTo-Json -Depth 100
-#     }
-
-#     $indent = 0
-#     $regexUnlessQuoted = '(?=([^"]*"[^"]*")*[^"]*$)'
-
-#     $result = $Json -split '\r?\n' |
-#         ForEach-Object {
-#             if ($_ -match "[}\]]$regexUnlessQuoted") {
-#                 $indent = [Math]::Max($indent - $Indentation, 0)
-#             }
-
-#             $line = (' ' * $indent) + ($_.TrimStart() -replace ":\s+$regexUnlessQuoted", ': ')
-#             if ($_ -match "[\{\[]$regexUnlessQuoted") {
-#                 $indent += $Indentation
-#             }
-
-#             $line
-#         }
-
-#     if ($AsArray) { return $result }
-#     return $result -Join [Environment]::NewLine
-# }
-
-
-$results = ConvertFrom-JsonTable -json ($results | convertto-json | ConvertFrom-json);
-
-$Text = [String] ("PV*SOL Informationen`n" + $results)
-
+$Text = [String] ("PV*SOL Informationen`n" + $output)
 
 $output = $Text.Replace('ö','oe').Replace('ä','ae').Replace('ü','ue').Replace('ß','ss').Replace('Ö','Oe').Replace('Ü','Ue').Replace('Ä','Ae')
-$isCapitalLetter = $Text -ceq $Text.toUpper()
-if ($isCapitalLetter) { 
-    $output = $output.toUpper() 
-}
-
 
 Set-Content -Path $saveFile -Value $output
-
-# Aufräumen
 
 Remove-Item $tempFolder -Recurse
