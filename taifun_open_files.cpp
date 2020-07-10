@@ -42,6 +42,9 @@ class AddFile {
         string inLineOne;
         string infotitle;
         string getinfo;
+        string runBeforeOpen;
+        string runAfterClose;
+        string requiredToOpen;
 };
 vector<AddFile> kownfiles;
 
@@ -115,6 +118,9 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
                             tmp.inLineOne = addfile.inLineOne;
                             tmp.infotitle = addfile.infotitle;
                             tmp.getinfo = addfile.getinfo;
+                            tmp.runBeforeOpen = addfile.runBeforeOpen;
+                            tmp.runAfterClose = addfile.runAfterClose;
+                            tmp.requiredToOpen = addfile.requiredToOpen;
 
                             kownfiles.push_back(addfile);
                         }
@@ -126,7 +132,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
                         addfile.ext = line.substr(4);
 
                         cout << "Optionen fuer " << addfile.ext << " werden geladen\n";
-                        cout << addfileid << "\n";
 
                     }
                     if (line.rfind("firstChars=", 0) == 0) 
@@ -137,6 +142,12 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
                         addfile.getinfo = line.substr(8);
                     if (line.rfind("infotitle=", 0) == 0) 
                         addfile.infotitle = line.substr(10);
+                    if (line.rfind("runBeforeOpen=", 0) == 0) 
+                        addfile.runBeforeOpen = line.substr(14);
+                    if (line.rfind("runAfterClose=", 0) == 0) 
+                        addfile.runAfterClose = line.substr(14);
+                    if (line.rfind("requiredToOpen=", 0) == 0) 
+                        addfile.requiredToOpen = line.substr(15);
 
                 }
 
@@ -241,6 +252,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
         cout << "Es wurde eine Kopie angelegt in " << tempOpenFilePath << "\n";
 
+        if (foundKnownFile.runBeforeOpen != "") {
+            cout << "Das hinterlegte Skript fuer 'runBeforeOpen' wird gestartet " << "\n";
+            system(("powershell -ExecutionPolicy Bypass -F \""+dirname+"\\ps\\"+foundKnownFile.runBeforeOpen+"\" -FilePath \"" + tempOpenFilePath + "\" -Fileid \"" + fileName + "\"").c_str());
+        }
+
     } catch(fs::filesystem_error& e) {
         std::cout << e.what() << '\n';
         return 1;
@@ -249,30 +265,52 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
     // ----------------------
     // Datei als Child-Prozess öffnen und warten
 
-    SHELLEXECUTEINFOA ShExecInfo = {0};
-    ShExecInfo.cbSize = sizeof(SHELLEXECUTEINFO);
-    ShExecInfo.fMask = SEE_MASK_NOCLOSEPROCESS;
-    ShExecInfo.hwnd = NULL;
-    ShExecInfo.lpVerb = NULL;
+    bool openProcess = true;
 
-    if (foundKnownFile.ext != "") {
-        ShExecInfo.lpFile = tempOpenFilePath.c_str();    
-        ShExecInfo.lpParameters = "";
-    } else {
-        cout << "Zum oeffnen der Datei wird der Fallback \"" << fallback << "\" verwenden.\n";
-        ShExecInfo.lpFile = fallback.c_str();    
-        ShExecInfo.lpParameters = tempOpenFilePath.c_str();
+    if (foundKnownFile.requiredToOpen != "") {
+        if (!fs::exists(foundKnownFile.requiredToOpen)) {
+            openProcess = false;
+        }
     }
 
-    ShExecInfo.lpDirectory = NULL;
-    ShExecInfo.nShow = SW_SHOW;
+    if (openProcess) {
 
-    cout << "Kopie wird geoeffnet\n";
+        SHELLEXECUTEINFOA ShExecInfo = {0};
+        ShExecInfo.cbSize = sizeof(SHELLEXECUTEINFO);
+        ShExecInfo.fMask = SEE_MASK_NOCLOSEPROCESS;
+        ShExecInfo.hwnd = NULL;
+        ShExecInfo.lpVerb = NULL;
 
-    ShExecInfo.hInstApp = NULL; 
-    ShellExecuteExA(&ShExecInfo);
-    WaitForSingleObject(ShExecInfo.hProcess, INFINITE);
-    CloseHandle(ShExecInfo.hProcess);
+        if (foundKnownFile.ext != "") {
+            ShExecInfo.lpFile = tempOpenFilePath.c_str();    
+            ShExecInfo.lpParameters = "";
+        } else {
+            cout << "Zum oeffnen der Datei wird der Fallback \"" << fallback << "\" verwenden.\n";
+            ShExecInfo.lpFile = fallback.c_str();    
+            ShExecInfo.lpParameters = tempOpenFilePath.c_str();
+        }
+
+        ShExecInfo.lpDirectory = NULL;
+        ShExecInfo.nShow = SW_SHOW;
+
+        cout << "Kopie wird geoeffnet\n";
+
+        ShExecInfo.hInstApp = NULL; 
+        ShellExecuteExA(&ShExecInfo);
+        WaitForSingleObject(ShExecInfo.hProcess, INFINITE);
+        CloseHandle(ShExecInfo.hProcess);
+
+    } else {
+
+        int msgboxID = MessageBoxW(
+            NULL,
+            L"Schliessen Sie dieses Dialogfeld, um die Bearbeitung abzuschliessen und die Aenderungen zu uebernehmen.",
+            L"Warten auf Beenden der Bearbeitung",
+            MB_ICONINFORMATION | MB_DEFBUTTON2
+        );
+
+    }
+
 
 
     // ----------------------
@@ -280,7 +318,13 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
     if (foundKnownFile.ext != "" && foundKnownFile.getinfo != "") {
 
+        if (foundKnownFile.runAfterClose != "") {
+            cout << "Das hinterlegte Skript fuer 'runAfterClose' wird gestartet " << "\n";
+            system(("powershell -ExecutionPolicy Bypass -F \""+dirname+"\\ps\\"+foundKnownFile.runAfterClose+"\" -FilePath \"" + tempOpenFilePath + "\" -Fileid \"" + fileName + "\"").c_str());
+        }
+        
         cout << "Es wird eine Zusammenfassung der Datei mit " << foundKnownFile.getinfo << " erstellt. \n";
+
 
         system(("powershell -ExecutionPolicy Bypass -F \""+dirname+"\\ps\\"+foundKnownFile.getinfo+"\" -sourceFile \"" + tempOpenFilePath + "\" -saveFile \""+dirname+"\\overview.txt\"").c_str());
         

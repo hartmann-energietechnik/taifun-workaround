@@ -108,8 +108,8 @@ if ($DBJSONData.CarsAndStations.Length -ne 0) {
 
 $Text = [String] ("PV*SOL Informationen`n" + $output)
 
-$output = $Text.Replace('ö','oe').Replace('ä','ae').Replace('ü','ue').Replace('ß','ss').Replace('Ö','Oe').Replace('Ü','Ue').Replace('Ä','Ae')
+$Text2 = $Text.Replace('ö','oe').Replace('ä','ae').Replace('ü','ue').Replace('ß','ss').Replace('Ö','Oe').Replace('Ü','Ue').Replace('Ä','Ae')
 
-Set-Content -Path $saveFile -Value $output
+Set-Content -Path $saveFile -Value $Text2
 
 Remove-Item $tempFolder -Recurse

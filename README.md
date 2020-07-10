@@ -13,7 +13,19 @@ An der eigentlichen Software wird nichts verändert und es ist keine Installatio
 ![Screenshot](screenshot.png)
 *Hier im Beispiel eine Simulation mit PV\*SOL Premium (.pvprj)*
 
+### Speziell für PV*SOL Premium
+
+1. Beim öffnen einer PV*Sol-Datei aus TAIFUN openDocuments wird neben der Datei ein Ordner angelegt, in dem Zusatzinformationen (zB. Dachmaße, Screenshots, ...) zu dem Projekt gespeichert werden können
+2. Wenn schon vorhanden wird er ggf. nur kopiert
+4. *PV\*Sol wird geöffnet*
+4. Der Zusatzordner wird automatisch (anpassbar über die `options.ini`) mit geöffnet
+4. ODER: wenn PV*SOL Premium nicht auf dem Rechner installiert ist, wird nur dieser Ornder geöffnet (Es wird eine MsBox geöffnet: Änderungen im Ordner übernehmen - Abbrechen)
+5. *PV\*Sol wird geschlossen*
+6. Der Zusatzordner wird dem  .pvprj Archiv hinzugefügt
+
+
 ## Installieren und Einrichten
+0. Für PV*SOL muss 7-Zip installiert werden
 1. `TAIFUN.Workaround.zip` von der [Release](https://github.com/otsmr/taifun-workaround/releases) Seite herunterladen
 2. `TAIFUN.Workaround.zip` extrahieren und zB. in den Ornder `%AppData%\taifun-workaround` verschieben
 3. `options.ini` anpassen
@@ -56,19 +68,6 @@ addfile_getinfo=pvprj.ps1
 
 Wenn eine `.txt`-Datei mit `taifun_open_files.exe` geöffnet wird und der Parent-Process nicht `tfw.exe` im Namen enthält wird diese mit dem Fallback geöffnet. Standard ist `notepad.exe`, kann aber über die `options.ini` geändert werden.
 
-## Ideen
-
-### PV*SOL Premium
-
-1. Beim öffnen einer PV*Sol-Datei aus TAIFUN openDocuments wird neben der Datei ein Ordner angelegt, in dem Zusatzinformationen (zB. Dachmaße, Screenshots, ...) zu dem Projekt gespeichert werden können
-2. Wenn schon vorhanden wird er ggf. nur kopiert
-4. *PV\*Sol wird geöffnet*
-4. Der Zusatzordner wird automatisch (anpassbar über die `options.ini`) mit geöffnet
-4. ODER: wenn PV*SOL Premium nicht auf dem Rechner installiert ist, wird nur dieser Ornder geöffnet (Es wird eine MsBox geöffnet: Änderungen im Ordner übernehmen - Abbrechen)
-5. *PV\*Sol wird geschlossen*
-6. Der Zusatzordner wird dem  .pvprj Archiv hinzugefügt
-
-Verknüpfung zum aktuellen Ordner in den ``TaifunFiles`` (<- An den Schnellzugriff anheften) anlegen.
 
 ```ini
 fallback=C:\Windows\system32\notepad.exe
