@@ -20,8 +20,10 @@ Remove-Item $FilePathZip -Force
 
 
 New-Item "$tempFolderArchive\custom" -itemtype directory
+New-Item "$tempFolderArchive\custom\Screenshots\" -itemtype directory
 try {
     Copy-Item "$customFolder\*" "$tempFolderArchive\custom"
+    Copy-Item -Path "$tempFolderArchive\Visu3D\*.jpg"  -Destination "$tempFolderArchive\custom\Screenshots\" -exclude *Textur* -Recurse
 }
 catch {}
 

@@ -19,7 +19,7 @@ Remove-Item $FilePathZip -Force
 
 New-Item $customFolder -itemtype directory
 try {
-    Copy-Item "$tempFolderArchive\custom\*" $customFolder
+    Copy-Item "$tempFolderArchive\custom\*" $customFolder -Recurse
 }
 catch {}
 try {
